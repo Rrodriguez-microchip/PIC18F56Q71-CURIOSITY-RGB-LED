@@ -35,7 +35,7 @@ An RGB LED control project for PIC18F-Q71 Curiosity Board with Melody (MCC).
 
 ## Software Requirements
 
-- **MPLAB X IDE** (v6.0 or later)
+- **MPLAB X IDE** (v6.20 or later)
 - **XC8 Compiler**
 - **MPLAB Code Configurator (MCC)** / Melody
 
@@ -43,31 +43,13 @@ An RGB LED control project for PIC18F-Q71 Curiosity Board with Melody (MCC).
 
 The project requires the following modules to be configured in MCC:
 
-### Required Modules:
-1. **System Clock**: Configure for your desired frequency
-2. **Pin Manager**: Assign PWM outputs to appropriate pins
-3. **PWM1_16BIT**: Configure for RGB Blue channel
-4. **PWM2_16BIT**: Configure for RGB Green channel  
-5. **PWM3_16BIT**: Configure for RGB Red channel
-6. **TMR2**: Timer for PWM time base
-7. **Interrupt Manager**: Enable global interrupts
 
 ### PWM Configuration:
 - **Resolution**: 16-bit
-- **Frequency**: 1-20 kHz (recommended for LED control)
+- **Frequency**: 1-1 kHz 
 - **Mode**: Left-aligned
-- **Period**: 0xF9FF (64511) for smooth transitions
 
-## Project Structure
 
-```
-├── main.c                     # Main application file
-├── mcc_generated_files/       # Auto-generated MCC files
-│   ├── system/
-│   ├── pwm/
-│   └── ...
-└── README.md                  # This file
-```
 
 ## Key Functions
 
@@ -141,24 +123,23 @@ void customEffect(void)
 
 ### Common Issues:
 
-1. **LED stays at 50% brightness**
+1. **LED stays at 50% brightness**(default Duty Cycle of PWM's)
    - Check that you're using duty cycle functions, not period functions
    - Use `PWMx_16BIT_SetSlice1Output1DutyCycleRegister()` 
    - Call `PWMx_16BIT_LoadBufferRegisters()` after setting values
 
 2. **Colors don't change**
-   - Verify PWM modules are enabled: `PWMx_16BIT_Enable()`
+   - Verify PWM modules are enabled: `PWMx_16BIT_Enable()` , ( enabled by default) 
    - Check pin assignments in MCC
-   - Verify current limiting resistors
+   -Delays too fast: Use larger delays (minimum _delay(50) for visible changes)
+   - PWM_MAX overflow: Ensure loop increments don't exceed PWM_MAX to avoid infinite loops
+   -Loop variable underflow: Use i >= step instead of i > 0 in decrementing loops
 
 3. **Transitions too fast/slow**
    - Adjust `step` size in loop increments
    - Modify `_delay()` values
    - Consider your timing: `_delay(100)` ≈ 3ms
 
-## Contributing
-
-Feel free to submit issues and enhancement requests!
 
 ## License
 
