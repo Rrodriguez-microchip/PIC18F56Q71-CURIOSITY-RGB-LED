@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.00 build 20241204225717 
-                                                                                               Thu Aug 14 16:04:54 2025
+                                                                                               Thu Aug 14 16:31:46 2025
 
 Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1 
      1                           	processor	18F56Q71
@@ -8024,50 +8024,50 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   8010   0004FE                     TOSH            equ	1278	;# 
   8011   0004FF                     TOSU            equ	1279	;# 
   8012                           
-  8013 ;; Function _INT0_DefaultInterruptHandler is unused but had its address taken
-  8014   000000                     _INT0_DefaultInterruptHandler equ	0
+  8013 ;; Function _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
+  8014   000000                     _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
   8015                           
-  8016 ;; Function _INT1_DefaultInterruptHandler is unused but had its address taken
-  8017   000000                     _INT1_DefaultInterruptHandler equ	0
+  8016 ;; Function _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
+  8017   000000                     _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
   8018                           
-  8019 ;; Function _INT2_DefaultInterruptHandler is unused but had its address taken
-  8020   000000                     _INT2_DefaultInterruptHandler equ	0
+  8019 ;; Function _PWM1_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
+  8020   000000                     _PWM1_16BIT_Period_DefaultInterruptHandler equ	0
   8021                           
-  8022 ;; Function _TMR2_Start is unused but had its address taken
-  8023   000000                     _TMR2_Start     equ	0
+  8022 ;; Function _PWM3_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
+  8023   000000                     _PWM3_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
   8024                           
-  8025 ;; Function _TMR2_Stop is unused but had its address taken
-  8026   000000                     _TMR2_Stop      equ	0
+  8025 ;; Function _PWM3_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
+  8026   000000                     _PWM3_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
   8027                           
-  8028 ;; Function _TMR2_PeriodCountSet is unused but had its address taken
-  8029   000000                     _TMR2_PeriodCountSet equ	0
+  8028 ;; Function _PWM3_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
+  8029   000000                     _PWM3_16BIT_Period_DefaultInterruptHandler equ	0
   8030                           
-  8031 ;; Function _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
-  8032   000000                     _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
+  8031 ;; Function _PWM2_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
+  8032   000000                     _PWM2_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
   8033                           
-  8034 ;; Function _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
-  8035   000000                     _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
+  8034 ;; Function _PWM2_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
+  8035   000000                     _PWM2_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
   8036                           
-  8037 ;; Function _PWM1_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
-  8038   000000                     _PWM1_16BIT_Period_DefaultInterruptHandler equ	0
+  8037 ;; Function _PWM2_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
+  8038   000000                     _PWM2_16BIT_Period_DefaultInterruptHandler equ	0
   8039                           
-  8040 ;; Function _PWM3_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
-  8041   000000                     _PWM3_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
+  8040 ;; Function _INT0_DefaultInterruptHandler is unused but had its address taken
+  8041   000000                     _INT0_DefaultInterruptHandler equ	0
   8042                           
-  8043 ;; Function _PWM3_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
-  8044   000000                     _PWM3_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
+  8043 ;; Function _INT1_DefaultInterruptHandler is unused but had its address taken
+  8044   000000                     _INT1_DefaultInterruptHandler equ	0
   8045                           
-  8046 ;; Function _PWM3_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
-  8047   000000                     _PWM3_16BIT_Period_DefaultInterruptHandler equ	0
+  8046 ;; Function _INT2_DefaultInterruptHandler is unused but had its address taken
+  8047   000000                     _INT2_DefaultInterruptHandler equ	0
   8048                           
-  8049 ;; Function _PWM2_16BIT_Slice1Output1_DefaultInterruptHandler is unused but had its address taken
-  8050   000000                     _PWM2_16BIT_Slice1Output1_DefaultInterruptHandler equ	0
+  8049 ;; Function _TMR2_Start is unused but had its address taken
+  8050   000000                     _TMR2_Start     equ	0
   8051                           
-  8052 ;; Function _PWM2_16BIT_Slice1Output2_DefaultInterruptHandler is unused but had its address taken
-  8053   000000                     _PWM2_16BIT_Slice1Output2_DefaultInterruptHandler equ	0
+  8052 ;; Function _TMR2_Stop is unused but had its address taken
+  8053   000000                     _TMR2_Stop      equ	0
   8054                           
-  8055 ;; Function _PWM2_16BIT_Period_DefaultInterruptHandler is unused but had its address taken
-  8056   000000                     _PWM2_16BIT_Period_DefaultInterruptHandler equ	0
+  8055 ;; Function _TMR2_PeriodCountSet is unused but had its address taken
+  8056   000000                     _TMR2_PeriodCountSet equ	0
   8057                           
   8058                           	psect	smallconst
   8059   001600                     __psmallconst:
@@ -8097,43 +8097,43 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   8083                           	psect	nvCOMRAM
   8084   000501                     __pnvCOMRAM:
   8085                           	callstack 0
-  8086   000501                     _PWM2_16BIT_Period_InterruptHandler:
+  8086   000501                     _TMR2_OverflowCallback:
   8087                           	callstack 0
   8088   000501                     	ds	2
-  8089   000503                     _PWM2_16BIT_Slice1Output2_InterruptHandler:
+  8089   000503                     _INT2_InterruptHandler:
   8090                           	callstack 0
   8091   000503                     	ds	2
-  8092   000505                     _PWM2_16BIT_Slice1Output1_InterruptHandler:
+  8092   000505                     _INT1_InterruptHandler:
   8093                           	callstack 0
   8094   000505                     	ds	2
-  8095   000507                     _PWM3_16BIT_Period_InterruptHandler:
+  8095   000507                     _INT0_InterruptHandler:
   8096                           	callstack 0
   8097   000507                     	ds	2
-  8098   000509                     _PWM3_16BIT_Slice1Output2_InterruptHandler:
+  8098   000509                     _PWM2_16BIT_Period_InterruptHandler:
   8099                           	callstack 0
   8100   000509                     	ds	2
-  8101   00050B                     _PWM3_16BIT_Slice1Output1_InterruptHandler:
+  8101   00050B                     _PWM2_16BIT_Slice1Output2_InterruptHandler:
   8102                           	callstack 0
   8103   00050B                     	ds	2
-  8104   00050D                     _PWM1_16BIT_Period_InterruptHandler:
+  8104   00050D                     _PWM2_16BIT_Slice1Output1_InterruptHandler:
   8105                           	callstack 0
   8106   00050D                     	ds	2
-  8107   00050F                     _PWM1_16BIT_Slice1Output2_InterruptHandler:
+  8107   00050F                     _PWM3_16BIT_Period_InterruptHandler:
   8108                           	callstack 0
   8109   00050F                     	ds	2
-  8110   000511                     _PWM1_16BIT_Slice1Output1_InterruptHandler:
+  8110   000511                     _PWM3_16BIT_Slice1Output2_InterruptHandler:
   8111                           	callstack 0
   8112   000511                     	ds	2
-  8113   000513                     _TMR2_OverflowCallback:
+  8113   000513                     _PWM3_16BIT_Slice1Output1_InterruptHandler:
   8114                           	callstack 0
   8115   000513                     	ds	2
-  8116   000515                     _INT2_InterruptHandler:
+  8116   000515                     _PWM1_16BIT_Period_InterruptHandler:
   8117                           	callstack 0
   8118   000515                     	ds	2
-  8119   000517                     _INT1_InterruptHandler:
+  8119   000517                     _PWM1_16BIT_Slice1Output2_InterruptHandler:
   8120                           	callstack 0
   8121   000517                     	ds	2
-  8122   000519                     _INT0_InterruptHandler:
+  8122   000519                     _PWM1_16BIT_Slice1Output1_InterruptHandler:
   8123                           	callstack 0
   8124   000519                     	ds	2
   8125   0000AC                     _ACTCON         set	172
@@ -8218,72 +8218,72 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   8204   00040A                     _ODCONB         set	1034
   8205   000402                     _ODCONA         set	1026
   8206   000458                     _FSCMCON        set	1112
-  8207   000477                     _PWM2GIEbits    set	1143
-  8208   000478                     _PWM2CONbits    set	1144
-  8209   000478                     _PWM2CON        set	1144
-  8210   0004AC                     _PIE5bits       set	1196
-  8211   000476                     _PWM2GIRbits    set	1142
-  8212   0004B7                     _PIR5bits       set	1207
-  8213   00047D                     _PWM2S1P2H      set	1149
-  8214   00047C                     _PWM2S1P2L      set	1148
-  8215   00047B                     _PWM2S1P1H      set	1147
-  8216   00047A                     _PWM2S1P1L      set	1146
-  8217   000479                     _PWM2S1CFG      set	1145
-  8218   000477                     _PWM2GIE        set	1143
-  8219   000476                     _PWM2GIR        set	1142
-  8220   000475                     _PWM2PIPOS      set	1141
-  8221   000474                     _PWM2CPRE       set	1140
-  8222   000473                     _PWM2PRH        set	1139
-  8223   000472                     _PWM2PRL        set	1138
-  8224   000471                     _PWM2LDS        set	1137
-  8225   000470                     _PWM2CLK        set	1136
-  8226   00046F                     _PWM2ERS        set	1135
-  8227   000486                     _PWM3GIEbits    set	1158
-  8228   000487                     _PWM3CONbits    set	1159
-  8229   000487                     _PWM3CON        set	1159
-  8230   0004AE                     _PIE7bits       set	1198
-  8231   000485                     _PWM3GIRbits    set	1157
-  8232   0004B9                     _PIR7bits       set	1209
-  8233   00048C                     _PWM3S1P2H      set	1164
-  8234   00048B                     _PWM3S1P2L      set	1163
-  8235   00048A                     _PWM3S1P1H      set	1162
-  8236   000489                     _PWM3S1P1L      set	1161
-  8237   000488                     _PWM3S1CFG      set	1160
-  8238   000486                     _PWM3GIE        set	1158
-  8239   000485                     _PWM3GIR        set	1157
-  8240   000484                     _PWM3PIPOS      set	1156
-  8241   000483                     _PWM3CPRE       set	1155
-  8242   000482                     _PWM3PRH        set	1154
-  8243   000481                     _PWM3PRL        set	1153
-  8244   000480                     _PWM3LDS        set	1152
-  8245   00047F                     _PWM3CLK        set	1151
-  8246   00047E                     _PWM3ERS        set	1150
-  8247   000468                     _PWM1GIEbits    set	1128
-  8248   000469                     _PWM1CONbits    set	1129
-  8249   000469                     _PWM1CON        set	1129
-  8250   0004AB                     _PIE4bits       set	1195
-  8251   000467                     _PWM1GIRbits    set	1127
-  8252   0004B6                     _PIR4bits       set	1206
-  8253   00046E                     _PWM1S1P2H      set	1134
-  8254   00046D                     _PWM1S1P2L      set	1133
-  8255   00046C                     _PWM1S1P1H      set	1132
-  8256   00046B                     _PWM1S1P1L      set	1131
-  8257   00046A                     _PWM1S1CFG      set	1130
-  8258   000468                     _PWM1GIE        set	1128
-  8259   000467                     _PWM1GIR        set	1127
-  8260   000466                     _PWM1PIPOS      set	1126
-  8261   000465                     _PWM1CPRE       set	1125
-  8262   000464                     _PWM1PRH        set	1124
-  8263   000463                     _PWM1PRL        set	1123
-  8264   000462                     _PWM1LDS        set	1122
-  8265   000461                     _PWM1CLK        set	1121
-  8266   000460                     _PWM1ERS        set	1120
-  8267   0004B5                     _PIR3bits       set	1205
-  8268   0004AA                     _PIE3bits       set	1194
-  8269   0004BC                     _PIR10bits      set	1212
-  8270   0004B8                     _PIR6bits       set	1208
-  8271   0004B3                     _PIR1bits       set	1203
-  8272   0004D6                     _INTCON0bits    set	1238
+  8207   0004B5                     _PIR3bits       set	1205
+  8208   0004AA                     _PIE3bits       set	1194
+  8209   0004BC                     _PIR10bits      set	1212
+  8210   0004B8                     _PIR6bits       set	1208
+  8211   0004B3                     _PIR1bits       set	1203
+  8212   0004D6                     _INTCON0bits    set	1238
+  8213   000477                     _PWM2GIEbits    set	1143
+  8214   000478                     _PWM2CONbits    set	1144
+  8215   000478                     _PWM2CON        set	1144
+  8216   0004AC                     _PIE5bits       set	1196
+  8217   000476                     _PWM2GIRbits    set	1142
+  8218   0004B7                     _PIR5bits       set	1207
+  8219   00047D                     _PWM2S1P2H      set	1149
+  8220   00047C                     _PWM2S1P2L      set	1148
+  8221   00047B                     _PWM2S1P1H      set	1147
+  8222   00047A                     _PWM2S1P1L      set	1146
+  8223   000479                     _PWM2S1CFG      set	1145
+  8224   000477                     _PWM2GIE        set	1143
+  8225   000476                     _PWM2GIR        set	1142
+  8226   000475                     _PWM2PIPOS      set	1141
+  8227   000474                     _PWM2CPRE       set	1140
+  8228   000473                     _PWM2PRH        set	1139
+  8229   000472                     _PWM2PRL        set	1138
+  8230   000471                     _PWM2LDS        set	1137
+  8231   000470                     _PWM2CLK        set	1136
+  8232   00046F                     _PWM2ERS        set	1135
+  8233   000486                     _PWM3GIEbits    set	1158
+  8234   000487                     _PWM3CONbits    set	1159
+  8235   000487                     _PWM3CON        set	1159
+  8236   0004AE                     _PIE7bits       set	1198
+  8237   000485                     _PWM3GIRbits    set	1157
+  8238   0004B9                     _PIR7bits       set	1209
+  8239   00048C                     _PWM3S1P2H      set	1164
+  8240   00048B                     _PWM3S1P2L      set	1163
+  8241   00048A                     _PWM3S1P1H      set	1162
+  8242   000489                     _PWM3S1P1L      set	1161
+  8243   000488                     _PWM3S1CFG      set	1160
+  8244   000486                     _PWM3GIE        set	1158
+  8245   000485                     _PWM3GIR        set	1157
+  8246   000484                     _PWM3PIPOS      set	1156
+  8247   000483                     _PWM3CPRE       set	1155
+  8248   000482                     _PWM3PRH        set	1154
+  8249   000481                     _PWM3PRL        set	1153
+  8250   000480                     _PWM3LDS        set	1152
+  8251   00047F                     _PWM3CLK        set	1151
+  8252   00047E                     _PWM3ERS        set	1150
+  8253   000468                     _PWM1GIEbits    set	1128
+  8254   000469                     _PWM1CONbits    set	1129
+  8255   000469                     _PWM1CON        set	1129
+  8256   0004AB                     _PIE4bits       set	1195
+  8257   000467                     _PWM1GIRbits    set	1127
+  8258   0004B6                     _PIR4bits       set	1206
+  8259   00046E                     _PWM1S1P2H      set	1134
+  8260   00046D                     _PWM1S1P2L      set	1133
+  8261   00046C                     _PWM1S1P1H      set	1132
+  8262   00046B                     _PWM1S1P1L      set	1131
+  8263   00046A                     _PWM1S1CFG      set	1130
+  8264   000468                     _PWM1GIE        set	1128
+  8265   000467                     _PWM1GIR        set	1127
+  8266   000466                     _PWM1PIPOS      set	1126
+  8267   000465                     _PWM1CPRE       set	1125
+  8268   000464                     _PWM1PRH        set	1124
+  8269   000463                     _PWM1PRL        set	1123
+  8270   000462                     _PWM1LDS        set	1122
+  8271   000461                     _PWM1CLK        set	1121
+  8272   000460                     _PWM1ERS        set	1120
   8273                           
   8274                           ; #config settings
   8275                           
@@ -8322,37 +8322,37 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   8308                           
   8309                           ; 1 bytes @ 0x0
   8310   00051B                     	ds	2
-  8311   00051D                     INT0_SetInterruptHandler@InterruptHandler:
+  8311   00051D                     PWM1_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
   8312                           	callstack 0
-  8313   00051D                     INT1_SetInterruptHandler@InterruptHandler:
+  8313   00051D                     PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
   8314                           	callstack 0
-  8315   00051D                     INT2_SetInterruptHandler@InterruptHandler:
+  8315   00051D                     PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
   8316                           	callstack 0
-  8317   00051D                     TMR2_OverflowCallbackRegister@InterruptHandler:
+  8317   00051D                     PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler:
   8318                           	callstack 0
-  8319   00051D                     PWM1_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
+  8319   00051D                     PWM3_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
   8320                           	callstack 0
-  8321   00051D                     PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
+  8321   00051D                     PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
   8322                           	callstack 0
-  8323   00051D                     PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
+  8323   00051D                     PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
   8324                           	callstack 0
-  8325   00051D                     PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler:
+  8325   00051D                     PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler:
   8326                           	callstack 0
-  8327   00051D                     PWM3_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
+  8327   00051D                     PWM2_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
   8328                           	callstack 0
-  8329   00051D                     PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
+  8329   00051D                     PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
   8330                           	callstack 0
-  8331   00051D                     PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
+  8331   00051D                     PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
   8332                           	callstack 0
-  8333   00051D                     PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler:
+  8333   00051D                     PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler:
   8334                           	callstack 0
-  8335   00051D                     PWM2_16BIT_SetSlice1Output1DutyCycleRegister@registerValue:
+  8335   00051D                     INT0_SetInterruptHandler@InterruptHandler:
   8336                           	callstack 0
-  8337   00051D                     PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler:
+  8337   00051D                     INT1_SetInterruptHandler@InterruptHandler:
   8338                           	callstack 0
-  8339   00051D                     PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler:
+  8339   00051D                     INT2_SetInterruptHandler@InterruptHandler:
   8340                           	callstack 0
-  8341   00051D                     PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler:
+  8341   00051D                     TMR2_OverflowCallbackRegister@InterruptHandler:
   8342                           	callstack 0
   8343   00051D                     
   8344                           ; 1 bytes @ 0x2
@@ -8385,7 +8385,7 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   8371 ;; Auto vars:     Size  Location     Type
   8372 ;;		None
   8373 ;; Return value:  Size  Location     Type
-  8374 ;;                  2  534[None  ] int 
+  8374 ;;                  2  685[None  ] int 
   8375 ;; Registers used:
   8376 ;;		wreg, status,2, status,0, cstack
   8377 ;; Tracked objects:
@@ -9098,8 +9098,8 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
   9013                           ;mcc_generated_files/timer/src/tmr2.c: 135: void TMR2_OverflowCallbackRegister(void (* I
       +                          nterruptHandler)(void));mcc_generated_files/timer/src/tmr2.c: 136: {;mcc_generated_files
       +                          /timer/src/tmr2.c: 137:    TMR2_OverflowCallback = InterruptHandler;
-  9014   001962  C51D  F513         	movff	TMR2_OverflowCallbackRegister@InterruptHandler,_TMR2_OverflowCallback
-  9015   001966  C51E  F514         	movff	TMR2_OverflowCallbackRegister@InterruptHandler+1,_TMR2_OverflowCallback+1
+  9014   001962  C51D  F501         	movff	TMR2_OverflowCallbackRegister@InterruptHandler,_TMR2_OverflowCallback
+  9015   001966  C51E  F502         	movff	TMR2_OverflowCallbackRegister@InterruptHandler+1,_TMR2_OverflowCallback+1
   9016   00196A  0012               	return		;funcret
   9017   00196C                     __end_of_TMR2_OverflowCallbackRegister:
   9018                           	callstack 0
@@ -9288,9 +9288,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm3_16bit.c: 195
       +                          : {;mcc_generated_files/pwm/src/pwm3_16bit.c: 196:     PWM3_16BIT_Slice1Output2_Interrup
       +                          tHandler = InterruptHandler;
-  9188   00196C  C51D  F509         	movff	PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Slice1O
+  9188   00196C  C51D  F511         	movff	PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Slice1O
       +                          utput2_InterruptHandler
-  9189   001970  C51E  F50A         	movff	PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Slice
+  9189   001970  C51E  F512         	movff	PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Slice
       +                          1Output2_InterruptHandler+1
   9190   001974  0012               	return		;funcret
   9191   001976                     __end_of_PWM3_16BIT_Slice1Output2_SetInterruptHandler:
@@ -9342,9 +9342,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm3_16bit.c: 190
       +                          : {;mcc_generated_files/pwm/src/pwm3_16bit.c: 191:     PWM3_16BIT_Slice1Output1_Interrup
       +                          tHandler = InterruptHandler;
-  9232   001976  C51D  F50B         	movff	PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Slice1O
+  9232   001976  C51D  F513         	movff	PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Slice1O
       +                          utput1_InterruptHandler
-  9233   00197A  C51E  F50C         	movff	PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Slice
+  9233   00197A  C51E  F514         	movff	PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Slice
       +                          1Output1_InterruptHandler+1
   9234   00197E  0012               	return		;funcret
   9235   001980                     __end_of_PWM3_16BIT_Slice1Output1_SetInterruptHandler:
@@ -9396,9 +9396,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          er(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm3_16bit.c: 200: {;mcc
       +                          _generated_files/pwm/src/pwm3_16bit.c: 201:     PWM3_16BIT_Period_InterruptHandler = Int
       +                          erruptHandler;
-  9276   001980  C51D  F507         	movff	PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Period_Interru
+  9276   001980  C51D  F50F         	movff	PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM3_16BIT_Period_Interru
       +                          ptHandler
-  9277   001984  C51E  F508         	movff	PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Period_Inter
+  9277   001984  C51E  F510         	movff	PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM3_16BIT_Period_Inter
       +                          ruptHandler+1
   9278   001988  0012               	return		;funcret
   9279   00198A                     __end_of_PWM3_16BIT_Period_SetInterruptHandler:
@@ -9588,9 +9588,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm2_16bit.c: 195
       +                          : {;mcc_generated_files/pwm/src/pwm2_16bit.c: 196:     PWM2_16BIT_Slice1Output2_Interrup
       +                          tHandler = InterruptHandler;
-  9450   00198A  C51D  F503         	movff	PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Slice1O
+  9450   00198A  C51D  F50B         	movff	PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Slice1O
       +                          utput2_InterruptHandler
-  9451   00198E  C51E  F504         	movff	PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Slice
+  9451   00198E  C51E  F50C         	movff	PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Slice
       +                          1Output2_InterruptHandler+1
   9452   001992  0012               	return		;funcret
   9453   001994                     __end_of_PWM2_16BIT_Slice1Output2_SetInterruptHandler:
@@ -9642,9 +9642,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm2_16bit.c: 190
       +                          : {;mcc_generated_files/pwm/src/pwm2_16bit.c: 191:     PWM2_16BIT_Slice1Output1_Interrup
       +                          tHandler = InterruptHandler;
-  9494   001994  C51D  F505         	movff	PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Slice1O
+  9494   001994  C51D  F50D         	movff	PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Slice1O
       +                          utput1_InterruptHandler
-  9495   001998  C51E  F506         	movff	PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Slice
+  9495   001998  C51E  F50E         	movff	PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Slice
       +                          1Output1_InterruptHandler+1
   9496   00199C  0012               	return		;funcret
   9497   00199E                     __end_of_PWM2_16BIT_Slice1Output1_SetInterruptHandler:
@@ -9696,9 +9696,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          er(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm2_16bit.c: 200: {;mcc
       +                          _generated_files/pwm/src/pwm2_16bit.c: 201:     PWM2_16BIT_Period_InterruptHandler = Int
       +                          erruptHandler;
-  9538   00199E  C51D  F501         	movff	PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Period_Interru
+  9538   00199E  C51D  F509         	movff	PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM2_16BIT_Period_Interru
       +                          ptHandler
-  9539   0019A2  C51E  F502         	movff	PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Period_Inter
+  9539   0019A2  C51E  F50A         	movff	PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM2_16BIT_Period_Inter
       +                          ruptHandler+1
   9540   0019A6  0012               	return		;funcret
   9541   0019A8                     __end_of_PWM2_16BIT_Period_SetInterruptHandler:
@@ -9888,9 +9888,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm1_16bit.c: 195
       +                          : {;mcc_generated_files/pwm/src/pwm1_16bit.c: 196:     PWM1_16BIT_Slice1Output2_Interrup
       +                          tHandler = InterruptHandler;
-  9712   0019A8  C51D  F50F         	movff	PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Slice1O
+  9712   0019A8  C51D  F517         	movff	PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Slice1O
       +                          utput2_InterruptHandler
-  9713   0019AC  C51E  F510         	movff	PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Slice
+  9713   0019AC  C51E  F518         	movff	PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Slice
       +                          1Output2_InterruptHandler+1
   9714   0019B0  0012               	return		;funcret
   9715   0019B2                     __end_of_PWM1_16BIT_Slice1Output2_SetInterruptHandler:
@@ -9942,9 +9942,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          ptHandler(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm1_16bit.c: 190
       +                          : {;mcc_generated_files/pwm/src/pwm1_16bit.c: 191:     PWM1_16BIT_Slice1Output1_Interrup
       +                          tHandler = InterruptHandler;
-  9756   0019B2  C51D  F511         	movff	PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Slice1O
+  9756   0019B2  C51D  F519         	movff	PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Slice1O
       +                          utput1_InterruptHandler
-  9757   0019B6  C51E  F512         	movff	PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Slice
+  9757   0019B6  C51E  F51A         	movff	PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Slice
       +                          1Output1_InterruptHandler+1
   9758   0019BA  0012               	return		;funcret
   9759   0019BC                     __end_of_PWM1_16BIT_Slice1Output1_SetInterruptHandler:
@@ -9996,9 +9996,9 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
       +                          er(void (* InterruptHandler)(void));mcc_generated_files/pwm/src/pwm1_16bit.c: 200: {;mcc
       +                          _generated_files/pwm/src/pwm1_16bit.c: 201:     PWM1_16BIT_Period_InterruptHandler = Int
       +                          erruptHandler;
-  9800   0019BC  C51D  F50D         	movff	PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Period_Interru
+  9800   0019BC  C51D  F515         	movff	PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler,_PWM1_16BIT_Period_Interru
       +                          ptHandler
-  9801   0019C0  C51E  F50E         	movff	PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Period_Inter
+  9801   0019C0  C51E  F516         	movff	PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler+1,_PWM1_16BIT_Period_Inter
       +                          ruptHandler+1
   9802   0019C4  0012               	return		;funcret
   9803   0019C6                     __end_of_PWM1_16BIT_Period_SetInterruptHandler:
@@ -10435,8 +10435,8 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10216   0019C6                     
  10217                           ;mcc_generated_files/system/src/interrupt.c: 164:     INT2_InterruptHandler = InterruptH
       +                          andler;
- 10218   0019C6  C51D  F515         	movff	INT2_SetInterruptHandler@InterruptHandler,_INT2_InterruptHandler
- 10219   0019CA  C51E  F516         	movff	INT2_SetInterruptHandler@InterruptHandler+1,_INT2_InterruptHandler+1
+ 10218   0019C6  C51D  F503         	movff	INT2_SetInterruptHandler@InterruptHandler,_INT2_InterruptHandler
+ 10219   0019CA  C51E  F504         	movff	INT2_SetInterruptHandler@InterruptHandler+1,_INT2_InterruptHandler+1
  10220   0019CE  0012               	return		;funcret
  10221   0019D0                     __end_of_INT2_SetInterruptHandler:
  10222                           	callstack 0
@@ -10485,8 +10485,8 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10260   0019D0                     
  10261                           ;mcc_generated_files/system/src/interrupt.c: 138:     INT1_InterruptHandler = InterruptH
       +                          andler;
- 10262   0019D0  C51D  F517         	movff	INT1_SetInterruptHandler@InterruptHandler,_INT1_InterruptHandler
- 10263   0019D4  C51E  F518         	movff	INT1_SetInterruptHandler@InterruptHandler+1,_INT1_InterruptHandler+1
+ 10262   0019D0  C51D  F505         	movff	INT1_SetInterruptHandler@InterruptHandler,_INT1_InterruptHandler
+ 10263   0019D4  C51E  F506         	movff	INT1_SetInterruptHandler@InterruptHandler+1,_INT1_InterruptHandler+1
  10264   0019D8  0012               	return		;funcret
  10265   0019DA                     __end_of_INT1_SetInterruptHandler:
  10266                           	callstack 0
@@ -10535,8 +10535,8 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10304   0019DA                     
  10305                           ;mcc_generated_files/system/src/interrupt.c: 112:     INT0_InterruptHandler = InterruptH
       +                          andler;
- 10306   0019DA  C51D  F519         	movff	INT0_SetInterruptHandler@InterruptHandler,_INT0_InterruptHandler
- 10307   0019DE  C51E  F51A         	movff	INT0_SetInterruptHandler@InterruptHandler+1,_INT0_InterruptHandler+1
+ 10306   0019DA  C51D  F507         	movff	INT0_SetInterruptHandler@InterruptHandler,_INT0_InterruptHandler
+ 10307   0019DE  C51E  F508         	movff	INT0_SetInterruptHandler@InterruptHandler+1,_INT0_InterruptHandler+1
  10308   0019E2  0012               	return		;funcret
  10309   0019E4                     __end_of_INT0_SetInterruptHandler:
  10310                           	callstack 0
@@ -10666,22 +10666,22 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10424                           ;mcc_generated_files/system/src/interrupt.c: 83:     if(PIE3bits.TMR2IE == 1 && PIR3bits
       +                          .TMR2IF == 1)
  10425   001842  A6AA               	btfss	170,3,c	;volatile
- 10426   001844  EF26  F00C         	goto	i2u3_41
- 10427   001848  EF28  F00C         	goto	i2u3_40
- 10428   00184C                     i2u3_41:
- 10429   00184C  EF31  F00C         	goto	i2l65
- 10430   001850                     i2u3_40:
+ 10426   001844  EF26  F00C         	goto	i2u33_41
+ 10427   001848  EF28  F00C         	goto	i2u33_40
+ 10428   00184C                     i2u33_41:
+ 10429   00184C  EF31  F00C         	goto	i2l395
+ 10430   001850                     i2u33_40:
  10431   001850  A6B5               	btfss	181,3,c	;volatile
- 10432   001852  EF2D  F00C         	goto	i2u4_41
- 10433   001856  EF2F  F00C         	goto	i2u4_40
- 10434   00185A                     i2u4_41:
- 10435   00185A  EF31  F00C         	goto	i2l65
- 10436   00185E                     i2u4_40:
+ 10432   001852  EF2D  F00C         	goto	i2u34_41
+ 10433   001856  EF2F  F00C         	goto	i2u34_40
+ 10434   00185A                     i2u34_41:
+ 10435   00185A  EF31  F00C         	goto	i2l395
+ 10436   00185E                     i2u34_40:
  10437   00185E                     
  10438                           ;mcc_generated_files/system/src/interrupt.c: 84:     {;mcc_generated_files/system/src/in
       +                          terrupt.c: 85:         TMR2_ISR();
  10439   00185E  EC36  F00C         	call	_TMR2_ISR	;wreg free
- 10440   001862                     i2l65:
+ 10440   001862                     i2l395:
  10441   001862  C51C  F4FB         	movff	??_INTERRUPT_InterruptManager+1,pclatu
  10442   001866  C51B  F4FA         	movff	??_INTERRUPT_InterruptManager,pclath
  10443   00186A  0011               	retfie		f
@@ -10734,13 +10734,13 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10485   00186C  96B5               	bcf	181,3,c	;volatile
  10486   00186E                     
  10487                           ;mcc_generated_files/timer/src/tmr2.c: 129:     if(TMR2_OverflowCallback)
- 10488   00186E  5013               	movf	_TMR2_OverflowCallback^(0+1280),w,c
- 10489   001870  1014               	iorwf	(_TMR2_OverflowCallback+1)^(0+1280),w,c
+ 10488   00186E  5001               	movf	_TMR2_OverflowCallback^(0+1280),w,c
+ 10489   001870  1002               	iorwf	(_TMR2_OverflowCallback+1)^(0+1280),w,c
  10490   001872  B4D8               	btfsc	status,2,c
  10491   001874  EF3E  F00C         	goto	i2u1_41
  10492   001878  EF40  F00C         	goto	i2u1_40
  10493   00187C                     i2u1_41:
- 10494   00187C  EF4C  F00C         	goto	i2l174
+ 10494   00187C  EF4C  F00C         	goto	i2l655
  10495   001880                     i2u1_40:
  10496   001880                     
  10497                           ;mcc_generated_files/timer/src/tmr2.c: 130:     {;mcc_generated_files/timer/src/tmr2.c: 
@@ -10750,15 +10750,15 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
  10500   001886                     i2u2_48:
  10501   001886  0005               	push	
  10502   001888  6EFA               	movwf	pclath,c
- 10503   00188A  5013               	movf	_TMR2_OverflowCallback^(0+1280),w,c
+ 10503   00188A  5001               	movf	_TMR2_OverflowCallback^(0+1280),w,c
  10504   00188C  6EFD               	movwf	tosl,c
- 10505   00188E  5014               	movf	(_TMR2_OverflowCallback+1)^(0+1280),w,c
+ 10505   00188E  5002               	movf	(_TMR2_OverflowCallback+1)^(0+1280),w,c
  10506   001890  6EFE               	movwf	tosh,c
  10507   001892  6AFF               	clrf	tosu,c
  10508   001894  50FA               	movf	pclath,w,c
  10509   001896  0012               	return		;indir
  10510   001898                     i2u2_49:
- 10511   001898                     i2l174:
+ 10511   001898                     i2l655:
  10512   001898  0012               	return		;funcret
  10513   00189A                     __end_of_TMR2_ISR:
  10514                           	callstack 0
@@ -11091,25 +11091,25 @@ Pointer List with Targets:
     PWM3_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler	PTR FTN()void  size(2) Largest target is 1
 		 -> PWM3_16BIT_Slice1Output2_DefaultInterruptHandler(), 
 
-    S306$4$0	PTR FTN()void  size(2) Largest target is 1
+    S942$4$0	PTR FTN()void  size(2) Largest target is 1
 		 -> TMR2_DefaultOverflowCallback(), 
 
-    S306TMR_INTERFACE$Initialize	PTR FTN()void  size(2) Largest target is 1
+    S942TMR_INTERFACE$Initialize	PTR FTN()void  size(2) Largest target is 1
 		 -> TMR2_Initialize(), 
 
-    S306TMR_INTERFACE$PeriodCountSet	PTR FTN(unsigned int ,)void  size(2) Largest target is 1
+    S942TMR_INTERFACE$PeriodCountSet	PTR FTN(unsigned int ,)void  size(2) Largest target is 1
 		 -> TMR2_PeriodCountSet(), 
 
-    S306TMR_INTERFACE$Start	PTR FTN()void  size(2) Largest target is 1
+    S942TMR_INTERFACE$Start	PTR FTN()void  size(2) Largest target is 1
 		 -> TMR2_Start(), 
 
-    S306TMR_INTERFACE$Stop	PTR FTN()void  size(2) Largest target is 1
+    S942TMR_INTERFACE$Stop	PTR FTN()void  size(2) Largest target is 1
 		 -> TMR2_Stop(), 
 
-    S306TMR_INTERFACE$Tasks	PTR FTN()void  size(2) Largest target is 1
+    S942TMR_INTERFACE$Tasks	PTR FTN()void  size(2) Largest target is 1
 		 -> NULL(), 
 
-    S306TMR_INTERFACE$TimeoutCallbackRegister	PTR FTN(PTR FTN()void ,)void  size(2) Largest target is 1
+    S942TMR_INTERFACE$TimeoutCallbackRegister	PTR FTN(PTR FTN()void ,)void  size(2) Largest target is 1
 		 -> TMR2_OverflowCallbackRegister(), 
 
     Timer2$Initialize	PTR FTN()void  size(2) Largest target is 1
@@ -11505,38 +11505,38 @@ DATA                 0      0      36      0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V3.00 build 20241204225717 
-Symbol Table                                                                                   Thu Aug 14 16:04:54 2025
+Symbol Table                                                                                   Thu Aug 14 16:31:46 2025
 
                               ?_TMR2_OverflowCallbackRegister 051D  
-                                                          l17 1920  
-                                                          l58 1838  
-                                                          l75 19E2  
-                                                          l88 19D8  
-                                                         l101 19CE  
-                                                         l241 17BA  
-                                                         l501 19A6  
-                                                         l149 18EA  
-                                                         l253 1960  
-                                                         l351 1706  
-                                                         l281 19C4  
-                                                         l177 196A  
-                                                         l275 19BA  
-                                                         l259 19EE  
-                                                         l363 194C  
-                                                         l461 1760  
-                                                         l541 1942  
-                                                         l278 19B0  
-                                                         l391 1988  
-                                                         l544 18C2  
-                                                         l385 197E  
-                                                         l369 19E6  
-                                                         l473 1956  
-                                                         l388 1974  
-                                                         l495 199C  
-                                                         l479 19EA  
-                                                         l498 1992  
-                                                         l675 16AC  
-                                                         l695 1908  
+                                                          l61 17BA  
+                                                          l73 1960  
+                                                          l95 19BA  
+                                                          l79 19EE  
+                                                          l98 19B0  
+                                                         l101 19C4  
+                                                         l211 1988  
+                                                         l205 197E  
+                                                         l208 1974  
+                                                         l321 19A6  
+                                                         l315 199C  
+                                                         l171 1706  
+                                                         l405 19E2  
+                                                         l318 1992  
+                                                         l431 19CE  
+                                                         l183 194C  
+                                                         l281 1760  
+                                                         l418 19D8  
+                                                         l347 1920  
+                                                         l189 19E6  
+                                                         l293 1956  
+                                                         l630 18EA  
+                                                         l299 19EA  
+                                                         l388 1838  
+                                                         l565 16AC  
+                                                         l585 1908  
+                                                         l658 196A  
+                                                         l692 1942  
+                                                         l695 18C2  
                                                          _PR2 031E  
                                                          u657 17DE  
                                   ??_INT0_SetInterruptHandler 051F  
@@ -11545,169 +11545,169 @@ Symbol Table                                                                    
                                                          wreg 04E8  
                             ??_PWM1_16BIT_LoadBufferRegisters 051D  
                              ?_PWM1_16BIT_LoadBufferRegisters 051B  
-                                                        l2103 19DA  
-                                                        l2111 19B2  
-                                                        l2105 19D0  
-                                                        l2113 19A8  
-                                                        l2121 1980  
-                                                        l2201 195C  
-                                                        l2107 19C6  
-                                                        l2131 180C  
-                                                        l2115 19BC  
-                                                        l2123 1994  
-                                                        l2211 16BC  
-                                                        l2203 16AE  
-                                                        l2133 1818  
-                                                        l2125 198A  
-                                                        l2117 1976  
-                                                        l2221 16C6  
-                                                        l2213 16BE  
-                                                        l2205 16B0  
-                                                        l2109 1962  
-                                                        l2141 18C4  
+                                                        l2103 19B2  
+                                                        l2111 196C  
+                                                        l2121 19DA  
+                                                        l2105 19A8  
+                                                        l2113 1980  
+                                                        l2201 16D6  
+                                                        l2123 19D0  
+                                                        l2107 19BC  
+                                                        l2131 1764  
+                                                        l2115 1994  
+                                                        l2211 16EA  
+                                                        l2203 16D8  
+                                                        l2125 19C6  
+                                                        l2141 1774  
+                                                        l2133 1768  
+                                                        l2117 198A  
+                                                        l2221 1708  
+                                                        l2109 1976  
+                                                        l2213 16F6  
+                                                        l2205 16DA  
                                                         l2301 18FC  
-                                                        l2135 181A  
-                                                        l2127 199E  
-                                                        l2119 196C  
-                                                        l2231 16D8  
-                                                        l2223 16CC  
-                                                        l2215 16C0  
-                                                        l2207 16B4  
-                                                        l2151 18E0  
-                                                        l2143 18CA  
+                                                        l2151 1786  
+                                                        l2143 1776  
+                                                        l2135 176A  
+                                                        l2119 199E  
+                                                        l2231 1718  
+                                                        l2223 170A  
+                                                        l2215 1702  
+                                                        l2207 16DC  
+                                                        l2127 1962  
                                                         l2303 1900  
                                                         l2311 17BC  
-                                                        l2137 1828  
-                                                        l2129 1806  
-                                                        l2161 1768  
-                                                        l2241 16F6  
-                                                        l2233 16DA  
-                                                        l2225 16D2  
-                                                        l2217 16C2  
-                                                        l2209 16B6  
-                                                        l2153 18E2  
-                                                        l2145 18CC  
+                                                        l1601 191A  
+                                                        l2161 1790  
+                                                        l2153 1788  
+                                                        l2145 1778  
+                                                        l2137 1770  
+                                                        l2129 1762  
+                                                        l2241 1726  
+                                                        l2233 171A  
+                                                        l2225 170E  
+                                                        l2209 16DE  
                                                         l2305 1904  
+                                                        l2217 1944  
                                                         l2313 17C0  
-                                                        l2139 182A  
-                                                        l2171 1776  
-                                                        l2163 176A  
-                                                        l2251 170A  
-                                                        l2243 1702  
-                                                        l2235 16DC  
-                                                        l2227 16D4  
-                                                        l2219 16C4  
-                                                        l2155 18E4  
-                                                        l2147 18D2  
+                                                        l1603 191C  
+                                                        l2163 1792  
+                                                        l2155 178A  
+                                                        l2147 177A  
+                                                        l2139 1772  
+                                                        l2251 1734  
+                                                        l2243 172C  
+                                                        l2235 171C  
+                                                        l2227 1710  
+                                                        l2171 1958  
+                                                        l2219 1948  
                                                         l2307 189A  
                                                         l2315 17C2  
-                                                        l1461 1918  
-                                                        l1701 1696  
-                                                        l2181 1788  
-                                                        l2173 1778  
-                                                        l2165 1770  
-                                                        l2157 1762  
-                                                        l2261 171A  
-                                                        l2253 170E  
-                                                        l2237 16DE  
-                                                        l2229 16D6  
-                                                        l2149 18D4  
-                                                        l1437 19EC  
-                                                        l1453 19E8  
-                                                        l1445 19E4  
-                                                        l2245 1944  
+                                                        l1701 16A8  
+                                                        l1621 1636  
+                                                        l2165 179E  
+                                                        l2157 178C  
+                                                        l2149 1780  
+                                                        l2261 175C  
+                                                        l2253 1736  
+                                                        l2245 172E  
+                                                        l2237 171E  
+                                                        l2229 1716  
+                                                        l2181 16B6  
+                                                        l1429 19EC  
+                                                        l1445 19E8  
+                                                        l1437 19E4  
+                                                        l2173 195C  
                                                         l2309 18BE  
                                                         l2317 17DC  
-                                                        l1463 191A  
-                                                        l1455 190A  
-                                                        l1711 16A0  
-                                                        l1703 1698  
-                                                        l2191 1792  
-                                                        l2183 178A  
-                                                        l2175 177A  
-                                                        l2167 1772  
-                                                        l2159 1764  
-                                                        l2271 172C  
-                                                        l2263 171C  
-                                                        l2255 1710  
-                                                        l2239 16EA  
-                                                        l2247 1948  
+                                                        l2271 1818  
+                                                        l1703 16AA  
+                                                        l1631 1646  
+                                                        l1623 163C  
+                                                        l2167 17AA  
+                                                        l2159 178E  
+                                                        l2255 1738  
+                                                        l2247 1730  
+                                                        l2239 1720  
+                                                        l2191 16C4  
+                                                        l2183 16BC  
+                                                        l2175 16AE  
+                                                        l2263 194E  
                                                         l2319 17E4  
-                                                        l1465 191C  
-                                                        l1457 1910  
-                                                        l1721 16AA  
-                                                        l1713 16A2  
-                                                        l1705 169A  
-                                                        l1641 163C  
-                                                        l2193 179E  
-                                                        l2185 178C  
-                                                        l2177 1780  
-                                                        l2169 1774  
-                                                        l2281 1736  
-                                                        l2273 172E  
-                                                        l2265 171E  
-                                                        l2257 1716  
-                                                        l2249 1708  
-                                                        l1633 1936  
-                                                        l1459 1912  
-                                                        l1715 16A4  
-                                                        l1707 169C  
-                                                        l1651 164C  
-                                                        l1643 163E  
-                                                        l1635 160E  
-                                                        l2195 17AA  
-                                                        l2187 178E  
-                                                        l2179 1786  
-                                                        l2283 1738  
-                                                        l2275 1730  
-                                                        l2267 1720  
-                                                        l2259 1718  
-                                                        l2291 194E  
-                                                        l1717 16A6  
-                                                        l1709 169E  
-                                                        l1661 1656  
-                                                        l1653 164E  
-                                                        l1645 1642  
-                                                        l1637 162E  
-                                                        l2197 17B6  
-                                                        l2189 1790  
-                                                        l2285 1744  
-                                                        l2277 1732  
-                                                        l2269 1726  
-                                                        l2293 1952  
-                                                        l1719 16A8  
-                                                        l1671 1660  
-                                                        l1663 1658  
-                                                        l1655 1650  
-                                                        l1647 1644  
-                                                        l1639 1636  
-                                                        l2287 1750  
-                                                        l2279 1734  
+                                                        l2273 181A  
+                                                        l1641 1654  
+                                                        l1633 164C  
+                                                        l1625 163E  
+                                                        l1617 160E  
+                                                        l2169 17B6  
+                                                        l2257 1744  
+                                                        l2249 1732  
+                                                        l2193 16C6  
+                                                        l2185 16BE  
+                                                        l2177 16B0  
+                                                        l2281 18CA  
+                                                        l1721 1936  
+                                                        l2265 1952  
+                                                        l2275 1828  
+                                                        l2267 1806  
+                                                        l1651 165E  
+                                                        l1643 1656  
+                                                        l1635 164E  
+                                                        l1627 1642  
+                                                        l1619 162E  
+                                                        l2259 1750  
+                                                        l2195 16CC  
+                                                        l2187 16C0  
+                                                        l2179 16B4  
+                                                        l2291 18E2  
+                                                        l2283 18CC  
+                                                        l2277 182A  
+                                                        l2269 180C  
+                                                        l1661 166C  
+                                                        l1653 1660  
+                                                        l1645 1658  
+                                                        l1637 1650  
+                                                        l1629 1644  
+                                                        l2197 16D2  
+                                                        l2189 16C2  
+                                                        l2293 18E4  
+                                                        l2285 18D2  
+                                                        l1671 167C  
+                                                        l1663 166E  
+                                                        l1655 1666  
+                                                        l1647 165A  
+                                                        l1639 1652  
+                                                        l2199 16D4  
+                                                        l2287 18D4  
+                                                        l2279 18C4  
                                                         l2295 18EC  
-                                                        l2199 1958  
-                                                        l1681 166E  
-                                                        l1673 1666  
-                                                        l1665 165A  
-                                                        l1657 1652  
-                                                        l1649 1646  
-                                                        l2289 175C  
+                                                        l1593 190A  
+                                                        l1681 1694  
+                                                        l1673 167E  
+                                                        l1665 1674  
+                                                        l1657 1668  
+                                                        l1649 165C  
+                                                        l2289 18E0  
                                                         l2297 18F4  
-                                                        l1691 167E  
-                                                        l1683 1674  
-                                                        l1675 1668  
-                                                        l1667 165C  
-                                                        l1659 1654  
+                                                        l1595 1910  
+                                                        l1691 169E  
+                                                        l1683 1696  
+                                                        l1675 168C  
+                                                        l1667 1676  
+                                                        l1659 166A  
                                                         l2299 18F8  
-                                                        l1693 168C  
-                                                        l1685 1676  
-                                                        l1677 166A  
-                                                        l1669 165E  
-                                                        l1695 1690  
-                                                        l1687 167A  
-                                                        l1679 166C  
-                                                        l1697 1692  
-                                                        l1689 167C  
-                                                        l1699 1694  
+                                                        l1597 1912  
+                                                        l1693 16A0  
+                                                        l1685 1698  
+                                                        l1677 1690  
+                                                        l1669 167A  
+                                                        l1599 1918  
+                                                        l1695 16A2  
+                                                        l1687 169A  
+                                                        l1679 1692  
+                                                        l1697 16A4  
+                                                        l1689 169C  
+                                                        l1699 16A6  
                                                         _LATA 0140  
                                                         _LATB 0141  
                                                         _LATC 0142  
@@ -11715,7 +11715,6 @@ Symbol Table                                                                    
                                                         _LATE 0144  
                                                         _LATF 0145  
                                                         _T2PR 031E  
-                                                        i2l65 1862  
                                                         _TMR2 031D  
                                                         _WPUA 0401  
                                                         _WPUB 0409  
@@ -11750,8 +11749,9 @@ Symbol Table                                                                    
                                                        _IOCWN 043E  
                                                        _IOCWP 043D  
                                                        _T2RST 0322  
-                                                       i2l180 19F0  
-                                                       i2l174 1898  
+                                                       i2l395 1862  
+                                                       i2l661 19F0  
+                                                       i2l655 1898  
                                       ?_PWM1_16BIT_Initialize 051B  
                                                        _OSCEN 00B3  
                                                        _TRISA 0148  
@@ -11789,7 +11789,7 @@ Symbol Table                                                                    
                        _PWM1_16BIT_Period_SetInterruptHandler 19BC  
                        _PWM2_16BIT_Period_SetInterruptHandler 199E  
                        _PWM3_16BIT_Period_SetInterruptHandler 1980  
-                          _PWM3_16BIT_Period_InterruptHandler 0507  
+                          _PWM3_16BIT_Period_InterruptHandler 050F  
                                                       _ACTCON 00AC  
                                                       _ANSELA 0400  
                                                       _ANSELB 0408  
@@ -11813,9 +11813,9 @@ Symbol Table                                                                    
                                                       i2l1723 186C  
                                                       i2l1725 186E  
                                                       i2l1727 1880  
-                                                      i2l1745 1842  
-                                                      i2l1747 1850  
-                                                      i2l1749 185E  
+                                                      i2l1853 1842  
+                                                      i2l1855 1850  
+                                                      i2l1857 185E  
                                                       _INLVLA 0404  
                                                       _INLVLB 040C  
                                                       _INLVLC 0414  
@@ -11826,11 +11826,7 @@ Symbol Table                                                                    
                                                       i2u1_40 1880  
                                                       i2u1_41 187C  
                                                       i2u2_48 1886  
-                                                      i2u3_40 1850  
                                                       i2u2_49 1898  
-                                                      i2u3_41 184C  
-                                                      i2u4_40 185E  
-                                                      i2u4_41 185A  
                                                       _Timer2 1601  
                         __end_of_TMR2_DefaultOverflowCallback 19F2  
                                 _TMR2_DefaultOverflowCallback 19F0  
@@ -11840,6 +11836,9 @@ Symbol Table                                                                    
                                 _INT2_DefaultInterruptHandler 0000  
                                           ??_CLOCK_Initialize 051D  
                                                 __mediumconst 1600  
+                    INT2_SetInterruptHandler@InterruptHandler 051D  
+                    INT1_SetInterruptHandler@InterruptHandler 051D  
+                    INT0_SetInterruptHandler@InterruptHandler 051D  
        PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler 051D  
 PWM2_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler 051D  
 PWM2_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D  
@@ -11849,9 +11848,6 @@ PWM3_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
        PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler 051D  
 PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler 051D  
 PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D  
-                    INT2_SetInterruptHandler@InterruptHandler 051D  
-                    INT1_SetInterruptHandler@InterruptHandler 051D  
-                    INT0_SetInterruptHandler@InterruptHandler 051D  
                                                  setRGB@green 0521  
                                            _SYSTEM_Initialize 18EC  
                                                   __accesstop 0560  
@@ -11868,7 +11864,7 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                             __end_of_INT2_SetInterruptHandler 19D0  
                              ??_TMR2_OverflowCallbackRegister 051F  
                                    __end_of_SYSTEM_Initialize 190A  
-                                       _INT0_InterruptHandler 0519  
+                                       _INT0_InterruptHandler 0507  
                                                   __pnvCOMRAM 0501  
                                                      IVTBASEH 045E  
                                                      IVTBASEL 045D  
@@ -11880,6 +11876,10 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                                   ??_INT1_SetInterruptHandler 051F  
                                                      _OSCCON1 00AD  
                                                      _OSCCON3 00AF  
+                                                     i2u33_40 1850  
+                                                     i2u33_41 184C  
+                                                     i2u34_40 185E  
+                                                     i2u34_41 185A  
                                                      _OSCTUNE 00B0  
                                                      _PWM1CLK 0461  
                                                      _PWM1GIE 0468  
@@ -11975,7 +11975,7 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                                                    _PWM3PIPOS 0484  
                       __end_of_PWM3_16BIT_LoadBufferRegisters 19E8  
                               _PWM3_16BIT_LoadBufferRegisters 19E4  
-                                       _INT1_InterruptHandler 0517  
+                                       _INT1_InterruptHandler 0505  
                                                    _TMR2_Stop 0000  
                                      ??_PWM2_16BIT_Initialize 051F  
                                               __end_of_Timer2 160D  
@@ -11989,9 +11989,9 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                                                   setRGB@blue 0523  
                                __end_of_PWM1_16BIT_Initialize 17BC  
                             __end_of_INT0_SetInterruptHandler 19E4  
-                                       _INT2_InterruptHandler 0515  
+                                       _INT2_InterruptHandler 0503  
                                        ?_Load_bufferRegisters 051B  
-                                       _TMR2_OverflowCallback 0513  
+                                       _TMR2_OverflowCallback 0501  
                                       _PIN_MANAGER_Initialize 160E  
                                      ??_PWM3_16BIT_Initialize 051F  
                                 ??_INTERRUPT_InterruptManager 051B  
@@ -12004,7 +12004,7 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                    _PWM1_16BIT_Period_DefaultInterruptHandler 0000  
                                             _CLOCK_Initialize 190A  
                                    ?_INT1_SetInterruptHandler 051D  
-                          _PWM2_16BIT_Period_InterruptHandler 0501  
+                          _PWM2_16BIT_Period_InterruptHandler 0509  
                                                     _PIE3bits 04AA  
                                                     _PIE4bits 04AB  
                                                     _PIE5bits 04AC  
@@ -12048,9 +12048,9 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                             ??_PWM3_16BIT_LoadBufferRegisters 051D  
                              ?_PWM3_16BIT_LoadBufferRegisters 051B  
                                                  _INTCON0bits 04D6  
-                   _PWM1_16BIT_Slice1Output1_InterruptHandler 0511  
-                   _PWM3_16BIT_Slice1Output1_InterruptHandler 050B  
-                   _PWM2_16BIT_Slice1Output1_InterruptHandler 0505  
+                   _PWM1_16BIT_Slice1Output1_InterruptHandler 0519  
+                   _PWM3_16BIT_Slice1Output1_InterruptHandler 0513  
+                   _PWM2_16BIT_Slice1Output1_InterruptHandler 050D  
                                        ?_INTERRUPT_Initialize 051B  
                                     _INT0_SetInterruptHandler 19DA  
                                       ??_Load_bufferRegisters 051D  
@@ -12086,7 +12086,7 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                        __end_of_TMR2_OverflowCallbackRegister 196C  
                                _TMR2_OverflowCallbackRegister 1962  
                                                     isa$xinst 0000  
-                          _PWM1_16BIT_Period_InterruptHandler 050D  
+                          _PWM1_16BIT_Period_InterruptHandler 0515  
                           __end_of_INTERRUPT_InterruptManager 186C  
                                   _INTERRUPT_InterruptManager 183A  
                                 _INT1_DefaultInterruptHandler 0000  
@@ -12103,9 +12103,9 @@ PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 051D
                                          _TMR2_PeriodCountSet 0000  
                                                     intlevel2 0000  
                                      ?_PIN_MANAGER_Initialize 051B  
-                   _PWM1_16BIT_Slice1Output2_InterruptHandler 050F  
-                   _PWM3_16BIT_Slice1Output2_InterruptHandler 0509  
-                   _PWM2_16BIT_Slice1Output2_InterruptHandler 0503  
+                   _PWM1_16BIT_Slice1Output2_InterruptHandler 0517  
+                   _PWM3_16BIT_Slice1Output2_InterruptHandler 0511  
+                   _PWM2_16BIT_Slice1Output2_InterruptHandler 050B  
                                     __end_of_CLOCK_Initialize 1922  
                                __end_of_PWM3_16BIT_Initialize 1708  
                                        _PWM1_16BIT_Initialize 1762  

@@ -29095,9 +29095,12 @@ int main(void)
 
     while(1)
     {
-        colorCycle();
-        breathingEffect();
 
+
+
+        setRGB(64511,0,0);
+        _delay(1000);
+        setRGB(0,64511,0);
     }
 }
 

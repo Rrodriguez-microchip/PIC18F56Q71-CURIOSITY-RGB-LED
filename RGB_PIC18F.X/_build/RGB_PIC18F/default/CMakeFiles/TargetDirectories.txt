@@ -1,4 +1,0 @@
-C:/Projects/trash/New Folder/RGB_PIC18F.X/_build/RGB_PIC18F/default/CMakeFiles/RGB_PIC18F_default_default_XC8_compile.dir
-C:/Projects/trash/New Folder/RGB_PIC18F.X/_build/RGB_PIC18F/default/CMakeFiles/RGB_PIC18F_default_image_hoZDHd0N.dir
-C:/Projects/trash/New Folder/RGB_PIC18F.X/_build/RGB_PIC18F/default/CMakeFiles/edit_cache.dir
-C:/Projects/trash/New Folder/RGB_PIC18F.X/_build/RGB_PIC18F/default/CMakeFiles/rebuild_cache.dir

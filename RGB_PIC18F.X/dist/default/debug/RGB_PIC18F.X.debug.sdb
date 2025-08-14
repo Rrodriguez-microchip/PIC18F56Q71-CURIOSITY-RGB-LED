@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F56Q71 ]
 [d frameptr 1249 ]
-"82 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
+"82 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
 [e E16436 . `uc
 TMR2_ROP_STARTS_TMRON 0
 TMR2_ROP_STARTS_TMRON_ERSHIGH 1
@@ -81,13 +81,13 @@ TMR2_UART2_TX_EDGE 26
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"41 C:\Projects\trash\New Folder\RGB_PIC18F.X\main.c
+"41 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
 [v _main main `(i  1 e 2 0 ]
-"64
+"67
 [v _Load_bufferRegisters Load_bufferRegisters `(v  1 e 1 0 ]
-"71
+"74
 [v _setRGB setRGB `(v  1 e 1 0 ]
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
 "137
 [v _PWM1_16BIT_SetSlice1Output1DutyCycleRegister PWM1_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
@@ -105,7 +105,7 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler PWM1_16BIT_Slice1Output2_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Slice1Output2_DefaultInterruptHandler ]
 "216
 [v _PWM1_16BIT_Period_DefaultInterruptHandler PWM1_16BIT_Period_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Period_DefaultInterruptHandler ]
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
 [v _PWM2_16BIT_Initialize PWM2_16BIT_Initialize `(v  1 e 1 0 ]
 "137
 [v _PWM2_16BIT_SetSlice1Output1DutyCycleRegister PWM2_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
@@ -123,7 +123,7 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM2_16BIT_Slice1Output2_DefaultInterruptHandler PWM2_16BIT_Slice1Output2_DefaultInterruptHandler `(v  1 s 1 PWM2_16BIT_Slice1Output2_DefaultInterruptHandler ]
 "216
 [v _PWM2_16BIT_Period_DefaultInterruptHandler PWM2_16BIT_Period_DefaultInterruptHandler `(v  1 s 1 PWM2_16BIT_Period_DefaultInterruptHandler ]
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_Initialize PWM3_16BIT_Initialize `(v  1 e 1 0 ]
 "137
 [v _PWM3_16BIT_SetSlice1Output1DutyCycleRegister PWM3_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
@@ -141,9 +141,9 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM3_16BIT_Slice1Output2_DefaultInterruptHandler PWM3_16BIT_Slice1Output2_DefaultInterruptHandler `(v  1 s 1 PWM3_16BIT_Slice1Output2_DefaultInterruptHandler ]
 "216
 [v _PWM3_16BIT_Period_DefaultInterruptHandler PWM3_16BIT_Period_DefaultInterruptHandler `(v  1 s 1 PWM3_16BIT_Period_DefaultInterruptHandler ]
-"39 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/clock.c
+"39 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
-"42 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
+"42 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "80
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
@@ -165,11 +165,11 @@ TMR2_UART2_TX_EDGE 26
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 "167
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
-"38 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/pins.c
+"38 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"38 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/system.c
+"38 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"57 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
+"57 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "94
 [v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
@@ -183,10 +183,6 @@ TMR2_UART2_TX_EDGE 26
 [v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
 "140
 [v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
-"6 C:\Projects\trash\New Folder\RGB_PIC18F.X\RGB_LED.c
-[v _colorCycle colorCycle `(v  1 e 1 0 ]
-"65
-[v _breathingEffect breathingEffect `(v  1 e 1 0 ]
 "3838 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18F-Q_DFP/1.27.449/xc8\pic\include\proc/pic18f56q71.h
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "3908
@@ -247,16 +243,16 @@ TMR2_UART2_TX_EDGE 26
 [v _PR2 PR2 `VEuc  1 e 1 @798 ]
 "24779
 [v _T2CON T2CON `VEuc  1 e 1 @799 ]
-[s S516 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S1149 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 CKPS 1 0 :3:4 
 `uc 1 ON 1 0 :1:7 
 ]
 "24815
-[s S520 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+[s S1153 . 1 `uc 1 T2OUTPS 1 0 :4:0 
 `uc 1 T2CKPS 1 0 :3:4 
 `uc 1 T2ON 1 0 :1:7 
 ]
-[s S524 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+[s S1157 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
 `uc 1 T2OUTPS1 1 0 :1:1 
 `uc 1 T2OUTPS2 1 0 :1:2 
 `uc 1 T2OUTPS3 1 0 :1:3 
@@ -264,7 +260,7 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 T2CKPS1 1 0 :1:5 
 `uc 1 T2CKPS2 1 0 :1:6 
 ]
-[s S532 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S1165 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
@@ -273,58 +269,58 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 CKPS2 1 0 :1:6 
 `uc 1 TMR2ON 1 0 :1:7 
 ]
-[u S541 . 1 `S516 1 . 1 0 `S520 1 . 1 0 `S524 1 . 1 0 `S532 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES541  1 e 1 @799 ]
+[u S1174 . 1 `S1149 1 . 1 0 `S1153 1 . 1 0 `S1157 1 . 1 0 `S1165 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1174  1 e 1 @799 ]
 "24925
 [v _T2HLT T2HLT `VEuc  1 e 1 @800 ]
-[s S402 . 1 `uc 1 MODE 1 0 :5:0 
+[s S1035 . 1 `uc 1 MODE 1 0 :5:0 
 `uc 1 CKSYNC 1 0 :1:5 
 `uc 1 CKPOL 1 0 :1:6 
 `uc 1 PSYNC 1 0 :1:7 
 ]
 "24958
-[s S407 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1040 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 `uc 1 MODE4 1 0 :1:4 
 ]
-[s S413 . 1 `uc 1 T2MODE 1 0 :5:0 
+[s S1046 . 1 `uc 1 T2MODE 1 0 :5:0 
 `uc 1 T2CKSYNC 1 0 :1:5 
 `uc 1 T2CKPOL 1 0 :1:6 
 `uc 1 T2PSYNC 1 0 :1:7 
 ]
-[s S418 . 1 `uc 1 T2MODE0 1 0 :1:0 
+[s S1051 . 1 `uc 1 T2MODE0 1 0 :1:0 
 `uc 1 T2MODE1 1 0 :1:1 
 `uc 1 T2MODE2 1 0 :1:2 
 `uc 1 T2MODE3 1 0 :1:3 
 `uc 1 T2MODE4 1 0 :1:4 
 ]
-[u S424 . 1 `S402 1 . 1 0 `S407 1 . 1 0 `S413 1 . 1 0 `S418 1 . 1 0 ]
-[v _T2HLTbits T2HLTbits `VES424  1 e 1 @800 ]
+[u S1057 . 1 `S1035 1 . 1 0 `S1040 1 . 1 0 `S1046 1 . 1 0 `S1051 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES1057  1 e 1 @800 ]
 "25053
 [v _T2CLKCON T2CLKCON `VEuc  1 e 1 @801 ]
 "25235
 [v _T2RST T2RST `VEuc  1 e 1 @802 ]
-[s S478 . 1 `uc 1 RSEL 1 0 :8:0 
+[s S1111 . 1 `uc 1 RSEL 1 0 :8:0 
 ]
 "25262
-[s S480 . 1 `uc 1 RSEL0 1 0 :1:0 
+[s S1113 . 1 `uc 1 RSEL0 1 0 :1:0 
 `uc 1 RSEL1 1 0 :1:1 
 `uc 1 RSEL2 1 0 :1:2 
 `uc 1 RSEL3 1 0 :1:3 
 `uc 1 RSEL4 1 0 :1:4 
 ]
-[s S486 . 1 `uc 1 T2RSEL 1 0 :8:0 
+[s S1119 . 1 `uc 1 T2RSEL 1 0 :8:0 
 ]
-[s S488 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+[s S1121 . 1 `uc 1 T2RSEL0 1 0 :1:0 
 `uc 1 T2RSEL1 1 0 :1:1 
 `uc 1 T2RSEL2 1 0 :1:2 
 `uc 1 T2RSEL3 1 0 :1:3 
 `uc 1 T2RSEL4 1 0 :1:4 
 ]
-[u S494 . 1 `S478 1 . 1 0 `S480 1 . 1 0 `S486 1 . 1 0 `S488 1 . 1 0 ]
-[v _T2RSTbits T2RSTbits `VES494  1 e 1 @802 ]
+[u S1127 . 1 `S1111 1 . 1 0 `S1113 1 . 1 0 `S1119 1 . 1 0 `S1121 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES1127  1 e 1 @802 ]
 "39317
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
 "39379
@@ -433,37 +429,37 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM1PIPOS PWM1PIPOS `VEuc  1 e 1 @1126 ]
 "43399
 [v _PWM1GIR PWM1GIR `VEuc  1 e 1 @1127 ]
-[s S655 . 1 `uc 1 S1P1IF 1 0 :1:0 
+[s S62 . 1 `uc 1 S1P1IF 1 0 :1:0 
 `uc 1 S1P2IF 1 0 :1:1 
 ]
 "43410
-[u S658 . 1 `S655 1 . 1 0 ]
+[u S65 . 1 `S62 1 . 1 0 ]
 "43410
 "43410
-[v _PWM1GIRbits PWM1GIRbits `VES658  1 e 1 @1127 ]
+[v _PWM1GIRbits PWM1GIRbits `VES65  1 e 1 @1127 ]
 "43425
 [v _PWM1GIE PWM1GIE `VEuc  1 e 1 @1128 ]
-[s S731 . 1 `uc 1 S1P1IE 1 0 :1:0 
+[s S138 . 1 `uc 1 S1P1IE 1 0 :1:0 
 `uc 1 S1P2IE 1 0 :1:1 
 ]
 "43436
-[u S734 . 1 `S731 1 . 1 0 ]
+[u S141 . 1 `S138 1 . 1 0 ]
 "43436
 "43436
-[v _PWM1GIEbits PWM1GIEbits `VES734  1 e 1 @1128 ]
+[v _PWM1GIEbits PWM1GIEbits `VES141  1 e 1 @1128 ]
 "43451
 [v _PWM1CON PWM1CON `VEuc  1 e 1 @1129 ]
-[s S716 . 1 `uc 1 ERSNOW 1 0 :1:0 
+[s S123 . 1 `uc 1 ERSNOW 1 0 :1:0 
 `uc 1 ERSPOL 1 0 :1:1 
 `uc 1 LD 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 EN 1 0 :1:7 
 ]
 "43465
-[u S722 . 1 `S716 1 . 1 0 ]
+[u S129 . 1 `S123 1 . 1 0 ]
 "43465
 "43465
-[v _PWM1CONbits PWM1CONbits `VES722  1 e 1 @1129 ]
+[v _PWM1CONbits PWM1CONbits `VES129  1 e 1 @1129 ]
 "43490
 [v _PWM1S1CFG PWM1S1CFG `VEuc  1 e 1 @1130 ]
 "43556
@@ -492,17 +488,17 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM2GIR PWM2GIR `VEuc  1 e 1 @1142 ]
 "43951
 "43951
-[v _PWM2GIRbits PWM2GIRbits `VES658  1 e 1 @1142 ]
+[v _PWM2GIRbits PWM2GIRbits `VES65  1 e 1 @1142 ]
 "43966
 [v _PWM2GIE PWM2GIE `VEuc  1 e 1 @1143 ]
 "43977
 "43977
-[v _PWM2GIEbits PWM2GIEbits `VES734  1 e 1 @1143 ]
+[v _PWM2GIEbits PWM2GIEbits `VES141  1 e 1 @1143 ]
 "43992
 [v _PWM2CON PWM2CON `VEuc  1 e 1 @1144 ]
 "44006
 "44006
-[v _PWM2CONbits PWM2CONbits `VES722  1 e 1 @1144 ]
+[v _PWM2CONbits PWM2CONbits `VES129  1 e 1 @1144 ]
 "44031
 [v _PWM2S1CFG PWM2S1CFG `VEuc  1 e 1 @1145 ]
 "44097
@@ -531,17 +527,17 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM3GIR PWM3GIR `VEuc  1 e 1 @1157 ]
 "44492
 "44492
-[v _PWM3GIRbits PWM3GIRbits `VES658  1 e 1 @1157 ]
+[v _PWM3GIRbits PWM3GIRbits `VES65  1 e 1 @1157 ]
 "44507
 [v _PWM3GIE PWM3GIE `VEuc  1 e 1 @1158 ]
 "44518
 "44518
-[v _PWM3GIEbits PWM3GIEbits `VES734  1 e 1 @1158 ]
+[v _PWM3GIEbits PWM3GIEbits `VES141  1 e 1 @1158 ]
 "44533
 [v _PWM3CON PWM3CON `VEuc  1 e 1 @1159 ]
 "44547
 "44547
-[v _PWM3CONbits PWM3CONbits `VES722  1 e 1 @1159 ]
+[v _PWM3CONbits PWM3CONbits `VES129  1 e 1 @1159 ]
 "44572
 [v _PWM3S1CFG PWM3S1CFG `VEuc  1 e 1 @1160 ]
 "44638
@@ -552,7 +548,7 @@ TMR2_UART2_TX_EDGE 26
 [v _PWM3S1P2L PWM3S1P2L `VEuc  1 e 1 @1163 ]
 "44705
 [v _PWM3S1P2H PWM3S1P2H `VEuc  1 e 1 @1164 ]
-[s S154 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+[s S707 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
 `uc 1 SPI1TXIE 1 0 :1:1 
 `uc 1 SPI1IE 1 0 :1:2 
 `uc 1 TMR2IE 1 0 :1:3 
@@ -562,11 +558,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 TMR0IE 1 0 :1:7 
 ]
 "45621
-[u S163 . 1 `S154 1 . 1 0 ]
+[u S716 . 1 `S707 1 . 1 0 ]
 "45621
 "45621
-[v _PIE3bits PIE3bits `VES163  1 e 1 @1194 ]
-[s S664 . 1 `uc 1 U1RXIE 1 0 :1:0 
+[v _PIE3bits PIE3bits `VES716  1 e 1 @1194 ]
+[s S71 . 1 `uc 1 U1RXIE 1 0 :1:0 
 `uc 1 U1TXIE 1 0 :1:1 
 `uc 1 U1EIE 1 0 :1:2 
 `uc 1 U1IE 1 0 :1:3 
@@ -576,11 +572,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM1IE 1 0 :1:7 
 ]
 "45683
-[u S673 . 1 `S664 1 . 1 0 ]
+[u S80 . 1 `S71 1 . 1 0 ]
 "45683
 "45683
-[v _PIE4bits PIE4bits `VES673  1 e 1 @1195 ]
-[s S1032 . 1 `uc 1 . 1 0 :1:0 
+[v _PIE4bits PIE4bits `VES80  1 e 1 @1195 ]
+[s S440 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CLC6IE 1 0 :1:1 
 `uc 1 TU16AIE 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -590,11 +586,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM2IE 1 0 :1:7 
 ]
 "45745
-[u S1041 . 1 `S1032 1 . 1 0 ]
+[u S449 . 1 `S440 1 . 1 0 ]
 "45745
 "45745
-[v _PIE5bits PIE5bits `VES1041  1 e 1 @1196 ]
-[s S848 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+[v _PIE5bits PIE5bits `VES449  1 e 1 @1196 ]
+[s S256 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
 `uc 1 I2C1TXIE 1 0 :1:1 
 `uc 1 I2C1IE 1 0 :1:2 
 `uc 1 I2C1EIE 1 0 :1:3 
@@ -604,11 +600,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM3IE 1 0 :1:7 
 ]
 "45859
-[u S857 . 1 `S848 1 . 1 0 ]
+[u S265 . 1 `S256 1 . 1 0 ]
 "45859
 "45859
-[v _PIE7bits PIE7bits `VES857  1 e 1 @1198 ]
-[s S61 . 1 `uc 1 INT0IF 1 0 :1:0 
+[v _PIE7bits PIE7bits `VES265  1 e 1 @1198 ]
+[s S614 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ADCH1IF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -618,11 +614,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 ADCH4IF 1 0 :1:7 
 ]
 "46136
-[u S70 . 1 `S61 1 . 1 0 ]
+[u S623 . 1 `S614 1 . 1 0 ]
 "46136
 "46136
-[v _PIR1bits PIR1bits `VES70  1 e 1 @1203 ]
-[s S175 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+[v _PIR1bits PIR1bits `VES623  1 e 1 @1203 ]
+[s S728 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
 `uc 1 SPI1TXIF 1 0 :1:1 
 `uc 1 SPI1IF 1 0 :1:2 
 `uc 1 TMR2IF 1 0 :1:3 
@@ -632,11 +628,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 TMR0IF 1 0 :1:7 
 ]
 "46255
-[u S184 . 1 `S175 1 . 1 0 ]
+[u S737 . 1 `S728 1 . 1 0 ]
 "46255
 "46255
-[v _PIR3bits PIR3bits `VES184  1 e 1 @1205 ]
-[s S634 . 1 `uc 1 U1RXIF 1 0 :1:0 
+[v _PIR3bits PIR3bits `VES737  1 e 1 @1205 ]
+[s S41 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
 `uc 1 U1IF 1 0 :1:3 
@@ -646,11 +642,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM1IF 1 0 :1:7 
 ]
 "46317
-[u S643 . 1 `S634 1 . 1 0 ]
+[u S50 . 1 `S41 1 . 1 0 ]
 "46317
 "46317
-[v _PIR4bits PIR4bits `VES643  1 e 1 @1206 ]
-[s S1002 . 1 `uc 1 . 1 0 :1:0 
+[v _PIR4bits PIR4bits `VES50  1 e 1 @1206 ]
+[s S410 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CLC6IF 1 0 :1:1 
 `uc 1 TU16AIF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -660,11 +656,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM2IF 1 0 :1:7 
 ]
 "46379
-[u S1011 . 1 `S1002 1 . 1 0 ]
+[u S419 . 1 `S410 1 . 1 0 ]
 "46379
 "46379
-[v _PIR5bits PIR5bits `VES1011  1 e 1 @1207 ]
-[s S92 . 1 `uc 1 INT1IF 1 0 :1:0 
+[v _PIR5bits PIR5bits `VES419  1 e 1 @1207 ]
+[s S645 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 CLC7IF 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -674,11 +670,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "46431
-[u S101 . 1 `S92 1 . 1 0 ]
+[u S654 . 1 `S645 1 . 1 0 ]
 "46431
 "46431
-[v _PIR6bits PIR6bits `VES101  1 e 1 @1208 ]
-[s S818 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
+[v _PIR6bits PIR6bits `VES654  1 e 1 @1208 ]
+[s S226 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
 `uc 1 I2C1TXIF 1 0 :1:1 
 `uc 1 I2C1IF 1 0 :1:2 
 `uc 1 I2C1EIF 1 0 :1:3 
@@ -688,11 +684,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 PWM3IF 1 0 :1:7 
 ]
 "46493
-[u S827 . 1 `S818 1 . 1 0 ]
+[u S235 . 1 `S226 1 . 1 0 ]
 "46493
 "46493
-[v _PIR7bits PIR7bits `VES827  1 e 1 @1209 ]
-[s S123 . 1 `uc 1 INT2IF 1 0 :1:0 
+[v _PIR7bits PIR7bits `VES235  1 e 1 @1209 ]
+[s S676 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 CLC8IF 1 0 :1:1 
 `uc 1 TU16BIF 1 0 :1:2 
 `uc 1 TMR4IF 1 0 :1:3 
@@ -702,11 +698,11 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 DMA4AIF 1 0 :1:7 
 ]
 "46646
-[u S132 . 1 `S123 1 . 1 0 ]
+[u S685 . 1 `S676 1 . 1 0 ]
 "46646
 "46646
-[v _PIR10bits PIR10bits `VES132  1 e 1 @1212 ]
-[s S35 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[v _PIR10bits PIR10bits `VES685  1 e 1 @1212 ]
+[s S588 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -715,117 +711,97 @@ TMR2_UART2_TX_EDGE 26
 `uc 1 GIE 1 0 :1:7 
 ]
 "46711
-[s S43 . 1 `uc 1 . 1 0 :7:0 
+[s S596 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
 "46711
-[u S46 . 1 `S35 1 . 1 0 `S43 1 . 1 0 ]
+[u S599 . 1 `S588 1 . 1 0 `S596 1 . 1 0 ]
 "46711
 "46711
-[v _INTCON0bits INTCON0bits `VES46  1 e 1 @1238 ]
-"43 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+[v _INTCON0bits INTCON0bits `VES599  1 e 1 @1238 ]
+"43 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_Slice1Output1_InterruptHandler PWM1_16BIT_Slice1Output1_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output1_InterruptHandler ]
 "44
 [v _PWM1_16BIT_Slice1Output2_InterruptHandler PWM1_16BIT_Slice1Output2_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output2_InterruptHandler ]
 "45
 [v _PWM1_16BIT_Period_InterruptHandler PWM1_16BIT_Period_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Period_InterruptHandler ]
-"43 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
+"43 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
 [v _PWM2_16BIT_Slice1Output1_InterruptHandler PWM2_16BIT_Slice1Output1_InterruptHandler `*.37(v  1 s 2 PWM2_16BIT_Slice1Output1_InterruptHandler ]
 "44
 [v _PWM2_16BIT_Slice1Output2_InterruptHandler PWM2_16BIT_Slice1Output2_InterruptHandler `*.37(v  1 s 2 PWM2_16BIT_Slice1Output2_InterruptHandler ]
 "45
 [v _PWM2_16BIT_Period_InterruptHandler PWM2_16BIT_Period_InterruptHandler `*.37(v  1 s 2 PWM2_16BIT_Period_InterruptHandler ]
-"43 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
+"43 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_Slice1Output1_InterruptHandler PWM3_16BIT_Slice1Output1_InterruptHandler `*.37(v  1 s 2 PWM3_16BIT_Slice1Output1_InterruptHandler ]
 "44
 [v _PWM3_16BIT_Slice1Output2_InterruptHandler PWM3_16BIT_Slice1Output2_InterruptHandler `*.37(v  1 s 2 PWM3_16BIT_Slice1Output2_InterruptHandler ]
 "45
 [v _PWM3_16BIT_Period_InterruptHandler PWM3_16BIT_Period_InterruptHandler `*.37(v  1 s 2 PWM3_16BIT_Period_InterruptHandler ]
-"38 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
+"38 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
 "40
 [v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_OverflowCallback TMR2_OverflowCallback `*.37(v  1 s 2 TMR2_OverflowCallback ]
-"41 C:\Projects\trash\New Folder\RGB_PIC18F.X\main.c
+"41 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"62
-} 0
-"6 C:\Projects\trash\New Folder\RGB_PIC18F.X\RGB_LED.c
-[v _colorCycle colorCycle `(v  1 e 1 0 ]
-{
-"8
-[v colorCycle@i i `us  1 a 2 25 ]
-"9
-[v colorCycle@step step `us  1 a 2 23 ]
-"60
-} 0
 "65
-[v _breathingEffect breathingEffect `(v  1 e 1 0 ]
-{
-"67
-[v breathingEffect@i i `us  1 a 2 26 ]
-"69
-[v breathingEffect@step step `us  1 a 2 24 ]
-"68
-[v breathingEffect@cycles cycles `uc  1 a 1 23 ]
-"90
 } 0
-"71 C:\Projects\trash\New Folder\RGB_PIC18F.X\main.c
+"74
 [v _setRGB setRGB `(v  1 e 1 0 ]
 {
 [v setRGB@red red `us  1 p 2 4 ]
 [v setRGB@green green `us  1 p 2 6 ]
 [v setRGB@blue blue `us  1 p 2 8 ]
-"79
+"82
 } 0
-"137 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
+"137 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_SetSlice1Output1DutyCycleRegister PWM3_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
 {
 [v PWM3_16BIT_SetSlice1Output1DutyCycleRegister@registerValue registerValue `us  1 p 2 2 ]
 "141
 } 0
-"137 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
+"137 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
 [v _PWM2_16BIT_SetSlice1Output1DutyCycleRegister PWM2_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
 {
 [v PWM2_16BIT_SetSlice1Output1DutyCycleRegister@registerValue registerValue `us  1 p 2 2 ]
 "141
 } 0
-"137 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+"137 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_SetSlice1Output1DutyCycleRegister PWM1_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
 {
 [v PWM1_16BIT_SetSlice1Output1DutyCycleRegister@registerValue registerValue `us  1 p 2 2 ]
 "141
 } 0
-"64 C:\Projects\trash\New Folder\RGB_PIC18F.X\main.c
+"67 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
 [v _Load_bufferRegisters Load_bufferRegisters `(v  1 e 1 0 ]
 {
-"70
+"73
 } 0
-"149 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
+"149 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_LoadBufferRegisters PWM3_16BIT_LoadBufferRegisters `(v  1 e 1 0 ]
 {
 "153
 } 0
-"149 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
+"149 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
 [v _PWM2_16BIT_LoadBufferRegisters PWM2_16BIT_LoadBufferRegisters `(v  1 e 1 0 ]
 {
 "153
 } 0
-"149 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+"149 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_LoadBufferRegisters PWM1_16BIT_LoadBufferRegisters `(v  1 e 1 0 ]
 {
 "153
 } 0
-"38 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/system.c
+"38 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "47
 } 0
-"57 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
+"57 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "80
@@ -836,7 +812,7 @@ TMR2_UART2_TX_EDGE 26
 [v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
 "138
 } 0
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_Initialize PWM3_16BIT_Initialize `(v  1 e 1 0 ]
 {
 "119
@@ -859,7 +835,7 @@ TMR2_UART2_TX_EDGE 26
 [v PWM3_16BIT_Period_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
 "202
 } 0
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm2_16bit.c
 [v _PWM2_16BIT_Initialize PWM2_16BIT_Initialize `(v  1 e 1 0 ]
 {
 "119
@@ -882,7 +858,7 @@ TMR2_UART2_TX_EDGE 26
 [v PWM2_16BIT_Period_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
 "202
 } 0
-"50 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+"50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
 {
 "119
@@ -905,12 +881,12 @@ TMR2_UART2_TX_EDGE 26
 [v PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
 "202
 } 0
-"38 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/pins.c
+"38 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "144
 } 0
-"42 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
+"42 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "71
@@ -933,17 +909,17 @@ TMR2_UART2_TX_EDGE 26
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
 "113
 } 0
-"39 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/clock.c
+"39 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "64
 } 0
-"80 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
+"80 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
 "91
 } 0
-"124 C:\Projects\trash\New Folder\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
+"124 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
 {
 "133

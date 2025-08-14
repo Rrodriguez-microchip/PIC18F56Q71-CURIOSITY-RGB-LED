@@ -18,14 +18,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "46711
 [; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18F-Q_DFP/1.27.449/xc8\pic\include\proc/pic18f56q71.h: 46711: extern volatile INTCON0bits_t INTCON0bits __attribute__((address(0x4D6)));
 [v _INTCON0bits `VS2107 ~T0 @X0 0 e@1238 ]
-"67 ./mcc_generated_files/system/../../RGB_LED.h
-[; ;./mcc_generated_files/system/../../RGB_LED.h: 67: void colorCycle(void);
-[; ;./mcc_generated_files/system/../../RGB_LED.h: 67: void colorCycle(void);
-[v _colorCycle `(v ~T0 @X0 0 ef ]
-"68
-[; ;./mcc_generated_files/system/../../RGB_LED.h: 68: void breathingEffect(void);
-[; ;./mcc_generated_files/system/../../RGB_LED.h: 68: void breathingEffect(void);
-[v _breathingEffect `(v ~T0 @X0 0 ef ]
+"64 ./mcc_generated_files/system/../../RGB_LED.h
+[; ;./mcc_generated_files/system/../../RGB_LED.h: 64: void setRGB(uint16_t red, uint16_t green, uint16_t blue);
+[; ;./mcc_generated_files/system/../../RGB_LED.h: 64: void setRGB(uint16_t red, uint16_t green, uint16_t blue);
+[v _setRGB `(v ~T0 @X0 0 ef3`us`us`us ]
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v3.00\pic\include/builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
 "101 ./mcc_generated_files/system/../pwm/pwm1_16bit.h
 [; ;./mcc_generated_files/system/../pwm/pwm1_16bit.h: 101: void PWM1_16BIT_LoadBufferRegisters(void);
 [v _PWM1_16BIT_LoadBufferRegisters `(v ~T0 @X0 0 ef ]
@@ -2432,69 +2432,72 @@ Version 4.0 HI-TECH Software Intermediate Code
 "57
 [; ;main.c: 57:     {
 {
-"58
-[; ;main.c: 58:         colorCycle();
-[e ( _colorCycle ..  ]
-"59
-[; ;main.c: 59:         breathingEffect();
-[e ( _breathingEffect ..  ]
 "61
-[; ;main.c: 61:     }
+[; ;main.c: 61:         setRGB(64511,0,0);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
+"62
+[; ;main.c: 62:         _delay(1000);
+[e ( __delay (1 -> -> -> 1000 `i `l `ul ]
+"63
+[; ;main.c: 63:         setRGB(0,64511,0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
+"64
+[; ;main.c: 64:     }
 }
 [e :U 2227 ]
 [e $U 2228  ]
 [e :U 2229 ]
-"62
-[; ;main.c: 62: }
+"65
+[; ;main.c: 65: }
 [e :UE 2226 ]
 }
-"64
-[; ;main.c: 64: void Load_bufferRegisters(void){
+"67
+[; ;main.c: 67: void Load_bufferRegisters(void){
 [v _Load_bufferRegisters `(v ~T0 @X0 1 ef ]
 {
 [e :U _Load_bufferRegisters ]
 [f ]
-"66
-[; ;main.c: 66:     PWM1_16BIT_LoadBufferRegisters();
+"69
+[; ;main.c: 69:     PWM1_16BIT_LoadBufferRegisters();
 [e ( _PWM1_16BIT_LoadBufferRegisters ..  ]
-"67
-[; ;main.c: 67:     PWM2_16BIT_LoadBufferRegisters();
-[e ( _PWM2_16BIT_LoadBufferRegisters ..  ]
-"68
-[; ;main.c: 68:     PWM3_16BIT_LoadBufferRegisters();
-[e ( _PWM3_16BIT_LoadBufferRegisters ..  ]
 "70
-[; ;main.c: 70: }
+[; ;main.c: 70:     PWM2_16BIT_LoadBufferRegisters();
+[e ( _PWM2_16BIT_LoadBufferRegisters ..  ]
+"71
+[; ;main.c: 71:     PWM3_16BIT_LoadBufferRegisters();
+[e ( _PWM3_16BIT_LoadBufferRegisters ..  ]
+"73
+[; ;main.c: 73: }
 [e :UE 2230 ]
 }
-"71
-[; ;main.c: 71: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
+"74
+[; ;main.c: 74: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
 [v _setRGB `(v ~T0 @X0 1 ef3`us`us`us ]
-"72
-[; ;main.c: 72: {
+"75
+[; ;main.c: 75: {
 {
 [e :U _setRGB ]
-"71
-[; ;main.c: 71: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
+"74
+[; ;main.c: 74: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
 [v _red `us ~T0 @X0 1 r1 ]
 [v _green `us ~T0 @X0 1 r2 ]
 [v _blue `us ~T0 @X0 1 r3 ]
-"72
-[; ;main.c: 72: {
-[f ]
-"74
-[; ;main.c: 74:     PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);
-[e ( _PWM3_16BIT_SetSlice1Output1DutyCycleRegister (1 _red ]
 "75
-[; ;main.c: 75:     PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);
-[e ( _PWM2_16BIT_SetSlice1Output1DutyCycleRegister (1 _green ]
-"76
-[; ;main.c: 76:     PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);
-[e ( _PWM1_16BIT_SetSlice1Output1DutyCycleRegister (1 _blue ]
+[; ;main.c: 75: {
+[f ]
 "77
-[; ;main.c: 77:     Load_bufferRegisters();
-[e ( _Load_bufferRegisters ..  ]
+[; ;main.c: 77:     PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);
+[e ( _PWM3_16BIT_SetSlice1Output1DutyCycleRegister (1 _red ]
+"78
+[; ;main.c: 78:     PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);
+[e ( _PWM2_16BIT_SetSlice1Output1DutyCycleRegister (1 _green ]
 "79
-[; ;main.c: 79: }
+[; ;main.c: 79:     PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);
+[e ( _PWM1_16BIT_SetSlice1Output1DutyCycleRegister (1 _blue ]
+"80
+[; ;main.c: 80:     Load_bufferRegisters();
+[e ( _Load_bufferRegisters ..  ]
+"82
+[; ;main.c: 82: }
 [e :UE 2231 ]
 }

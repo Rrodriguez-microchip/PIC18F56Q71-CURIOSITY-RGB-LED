@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>RGB_PIC18F</name>
+            <name>_RGB_PIC18F</name>
             <creation-uuid>812cebd0-732d-4e0f-90c5-1e2a82cc1cef</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>

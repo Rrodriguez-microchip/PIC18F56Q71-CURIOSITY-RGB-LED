@@ -28559,7 +28559,7 @@ void breathingEffect(void)
         }
 
         setRGB(0, 0, 0);
-        _delay(200000);
+        _delay(5000);
     }
 }
 
