@@ -11,4 +11,5 @@ mcc_generated_files/system/../timer/tmr2.h  \
 mcc_generated_files/system/../timer/timer_interface.h  \
 mcc_generated_files/system/../system/interrupt.h  \
 mcc_generated_files/system/../../RGB_LED.h  \
+mcc_generated_files/system/../../mcc_generated_files/system/system.h  \
 RGB_LED.h 

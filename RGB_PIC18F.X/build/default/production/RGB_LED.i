@@ -28464,6 +28464,606 @@ unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include/xc.h" 2 3
 # 35 "./RGB_LED.h" 2
+# 1 "./mcc_generated_files/system/system.h" 1
+# 40 "./mcc_generated_files/system/system.h"
+# 1 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stdbool.h" 1 3
+# 41 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/config_bits.h" 1
+# 39 "./mcc_generated_files/system/config_bits.h"
+# 1 "./mcc_generated_files/system/../system/clock.h" 1
+# 50 "./mcc_generated_files/system/../system/clock.h"
+void CLOCK_Initialize(void);
+# 40 "./mcc_generated_files/system/config_bits.h" 2
+# 42 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../system/pins.h" 1
+# 118 "./mcc_generated_files/system/../system/pins.h"
+void PIN_MANAGER_Initialize (void);
+
+
+
+
+
+
+
+void PIN_MANAGER_IOC(void);
+# 43 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../pwm/pwm1_16bit.h" 1
+# 50 "./mcc_generated_files/system/../pwm/pwm1_16bit.h"
+void PWM1_16BIT_Initialize(void);
+
+
+
+
+
+
+
+void PWM1_16BIT_Enable(void);
+# 67 "./mcc_generated_files/system/../pwm/pwm1_16bit.h"
+void PWM1_16BIT_Disable(void);
+
+
+
+
+
+
+
+void PWM1_16BIT_WritePeriodRegister(uint16_t periodCount);
+
+
+
+
+
+
+
+void PWM1_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+
+
+
+
+
+
+
+void PWM1_16BIT_SetSlice1Output2DutyCycleRegister(uint16_t value);
+# 101 "./mcc_generated_files/system/../pwm/pwm1_16bit.h"
+void PWM1_16BIT_LoadBufferRegisters(void);
+
+
+
+
+
+
+
+void PWM1_16BIT_PWMI_ISR(void);
+
+
+
+
+
+
+
+void PWM1_16BIT_PWMPI_ISR(void);
+
+
+
+
+
+
+
+void PWM1_16BIT_Slice1Output1_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM1_16BIT_Slice1Output2_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM1_16BIT_Period_SetInterruptHandler(void (* InterruptHandler)(void));
+# 44 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../pwm/pwm2_16bit.h" 1
+# 50 "./mcc_generated_files/system/../pwm/pwm2_16bit.h"
+void PWM2_16BIT_Initialize(void);
+
+
+
+
+
+
+
+void PWM2_16BIT_Enable(void);
+# 67 "./mcc_generated_files/system/../pwm/pwm2_16bit.h"
+void PWM2_16BIT_Disable(void);
+
+
+
+
+
+
+
+void PWM2_16BIT_WritePeriodRegister(uint16_t periodCount);
+
+
+
+
+
+
+
+void PWM2_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+
+
+
+
+
+
+
+void PWM2_16BIT_SetSlice1Output2DutyCycleRegister(uint16_t value);
+# 101 "./mcc_generated_files/system/../pwm/pwm2_16bit.h"
+void PWM2_16BIT_LoadBufferRegisters(void);
+
+
+
+
+
+
+
+void PWM2_16BIT_PWMI_ISR(void);
+
+
+
+
+
+
+
+void PWM2_16BIT_PWMPI_ISR(void);
+
+
+
+
+
+
+
+void PWM2_16BIT_Slice1Output1_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM2_16BIT_Slice1Output2_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM2_16BIT_Period_SetInterruptHandler(void (* InterruptHandler)(void));
+# 45 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../pwm/pwm3_16bit.h" 1
+# 50 "./mcc_generated_files/system/../pwm/pwm3_16bit.h"
+void PWM3_16BIT_Initialize(void);
+
+
+
+
+
+
+
+void PWM3_16BIT_Enable(void);
+# 67 "./mcc_generated_files/system/../pwm/pwm3_16bit.h"
+void PWM3_16BIT_Disable(void);
+
+
+
+
+
+
+
+void PWM3_16BIT_WritePeriodRegister(uint16_t periodCount);
+
+
+
+
+
+
+
+void PWM3_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+
+
+
+
+
+
+
+void PWM3_16BIT_SetSlice1Output2DutyCycleRegister(uint16_t value);
+# 101 "./mcc_generated_files/system/../pwm/pwm3_16bit.h"
+void PWM3_16BIT_LoadBufferRegisters(void);
+
+
+
+
+
+
+
+void PWM3_16BIT_PWMI_ISR(void);
+
+
+
+
+
+
+
+void PWM3_16BIT_PWMPI_ISR(void);
+
+
+
+
+
+
+
+void PWM3_16BIT_Slice1Output1_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM3_16BIT_Slice1Output2_SetInterruptHandler(void (* InterruptHandler)(void));
+
+
+
+
+
+
+
+void PWM3_16BIT_Period_SetInterruptHandler(void (* InterruptHandler)(void));
+# 46 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../timer/tmr2.h" 1
+# 39 "./mcc_generated_files/system/../timer/tmr2.h"
+# 1 "./mcc_generated_files/system/../timer/timer_interface.h" 1
+# 42 "./mcc_generated_files/system/../timer/timer_interface.h"
+# 1 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stddef.h" 1 3
+# 19 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stddef.h" 3
+# 1 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/bits/alltypes.h" 1 3
+# 138 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/bits/alltypes.h" 3
+typedef int ptrdiff_t;
+# 20 "C:\\Program Files\\Microchip\\xc8\\v3.00\\pic\\include\\c99/stddef.h" 2 3
+# 43 "./mcc_generated_files/system/../timer/timer_interface.h" 2
+
+
+
+
+
+
+
+struct TMR_INTERFACE
+{
+    void (*Initialize)(void);
+    void (*Start)(void);
+    void (*Stop)(void);
+    void (*PeriodCountSet)(size_t count);
+    void (*TimeoutCallbackRegister)(void (* CallbackHandler)(void));
+    void (*Tasks)(void);
+};
+# 40 "./mcc_generated_files/system/../timer/tmr2.h" 2
+# 101 "./mcc_generated_files/system/../timer/tmr2.h"
+extern const struct TMR_INTERFACE Timer2;
+
+
+
+
+
+
+typedef enum
+{
+# 118 "./mcc_generated_files/system/../timer/tmr2.h"
+   TMR2_ROP_STARTS_TMRON,
+
+
+
+
+   TMR2_ROP_STARTS_TMRON_ERSHIGH,
+
+
+
+
+   TMR2_ROP_STARTS_TMRON_ERSLOW,
+
+
+
+
+   TMR2_ROP_RESETS_ERSBOTHEDGE,
+
+
+
+
+   TMR2_ROP_RESETS_ERSRISINGEDGE,
+
+
+
+
+   TMR2_ROP_RESETS_ERSFALLINGEDGE,
+
+
+
+
+   TMR2_ROP_RESETS_ERSLOW,
+
+
+
+
+   TMR2_ROP_RESETS_ERSHIGH,
+# 164 "./mcc_generated_files/system/../timer/tmr2.h"
+   TMR2_OS_STARTS_TMRON,
+
+
+
+
+   TMR2_OS_STARTS_ERSRISINGEDGE ,
+
+
+
+
+   TMR2_OS_STARTS_ERSFALLINGEDGE ,
+
+
+
+
+   TMR2_OS_STARTS_ERSBOTHEDGE,
+
+
+
+
+
+   TMR2_OS_STARTS_ERSFIRSTRISINGEDGE,
+
+
+
+
+
+   TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE,
+
+
+
+
+
+   TMR2_OS_STARTS_ERSRISINGEDGEDETECT,
+
+
+
+
+   TMR2_OS_STARTS_ERSFALLINGEDGEDETECT,
+
+
+
+
+   TMR2_OS_STARTS_TMRON_ERSHIGH = 0x16,
+
+
+
+
+   TMR2_OS_STARTS_TMRON_ERSLOW = 0x17,
+# 221 "./mcc_generated_files/system/../timer/tmr2.h"
+   TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT = 0x11,
+
+
+
+
+   TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT = 0x12,
+
+
+
+
+
+   TMR2_MS_STARTS_TMRON_ERSBOTHEDGE = 0x13
+
+} TMR2_HLT_MODE;
+
+
+
+
+
+
+typedef enum
+{
+
+
+
+    TMR2_T2CKIPPS_PIN = 0x0,
+
+
+
+    TMR2_TMR4_POSTSCALED = 0x2,
+
+
+
+    TMR2_CCP1OUT = 0x4,
+
+
+
+    TMR2_CCP2OUT = 0x5,
+
+
+
+    TMR2_PWM1_OUT1 = 0x6,
+
+
+
+    TMR2_PWM1_OUT2 = 0x7,
+
+
+
+    TMR2_PWM2_OUT1 = 0x8,
+
+
+
+    TMR2_PWM2_OUT2 = 0x9,
+
+
+
+    TMR2_PWM3_OUT1 = 0xa,
+
+
+
+    TMR2_PWM3_OUT2 = 0xb,
+
+
+
+    TMR2_CMP1OUT = 0xc,
+
+
+
+    TMR2_CMP2OUT = 0xd,
+
+
+
+    TMR2_ZCDOUT = 0xe,
+
+
+
+    TMR2_CLC1_OUT = 0xf,
+
+
+
+    TMR2_CLC2_OUT = 0x10,
+
+
+
+    TMR2_CLC3_OUT = 0x11,
+
+
+
+    TMR2_CLC4_OUT = 0x12,
+
+
+
+    TMR2_CLC5_OUT = 0x13,
+
+
+
+    TMR2_CLC6_OUT = 0x14,
+
+
+
+    TMR2_CLC7_OUT = 0x15,
+
+
+
+    TMR2_CLC8_OUT = 0x16,
+
+
+
+    TMR2_UART1_RX_EDGE = 0x17,
+
+
+
+    TMR2_UART1_TX_EDGE = 0x18,
+
+
+
+    TMR2_UART2_RX_EDGE = 0x19,
+
+
+
+    TMR2_UART2_TX_EDGE = 0x1a
+} TMR2_HLT_EXT_RESET_SOURCE;
+# 355 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_Initialize(void);
+# 364 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_ModeSet(TMR2_HLT_MODE mode);
+# 373 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_ExtResetSourceSet(TMR2_HLT_EXT_RESET_SOURCE reset);
+# 382 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_Start(void);
+# 391 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_Stop(void);
+# 400 "./mcc_generated_files/system/../timer/tmr2.h"
+uint8_t TMR2_Read(void);
+# 409 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_Write(uint8_t timerVal);
+# 418 "./mcc_generated_files/system/../timer/tmr2.h"
+void TMR2_PeriodCountSet(size_t periodVal);
+
+
+
+
+
+
+
+void TMR2_ISR(void);
+
+
+
+
+
+
+
+void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
+# 47 "./mcc_generated_files/system/system.h" 2
+# 1 "./mcc_generated_files/system/../system/interrupt.h" 1
+# 69 "./mcc_generated_files/system/../system/interrupt.h"
+void INTERRUPT_Initialize (void);
+# 218 "./mcc_generated_files/system/../system/interrupt.h"
+void INT0_ISR(void);
+# 227 "./mcc_generated_files/system/../system/interrupt.h"
+void INT0_CallBack(void);
+# 236 "./mcc_generated_files/system/../system/interrupt.h"
+void INT0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 246 "./mcc_generated_files/system/../system/interrupt.h"
+extern void (*INT0_InterruptHandler)(void);
+# 255 "./mcc_generated_files/system/../system/interrupt.h"
+void INT0_DefaultInterruptHandler(void);
+# 264 "./mcc_generated_files/system/../system/interrupt.h"
+void INT1_ISR(void);
+# 273 "./mcc_generated_files/system/../system/interrupt.h"
+void INT1_CallBack(void);
+# 282 "./mcc_generated_files/system/../system/interrupt.h"
+void INT1_SetInterruptHandler(void (* InterruptHandler)(void));
+# 292 "./mcc_generated_files/system/../system/interrupt.h"
+extern void (*INT1_InterruptHandler)(void);
+# 301 "./mcc_generated_files/system/../system/interrupt.h"
+void INT1_DefaultInterruptHandler(void);
+# 310 "./mcc_generated_files/system/../system/interrupt.h"
+void INT2_ISR(void);
+# 319 "./mcc_generated_files/system/../system/interrupt.h"
+void INT2_CallBack(void);
+# 328 "./mcc_generated_files/system/../system/interrupt.h"
+void INT2_SetInterruptHandler(void (* InterruptHandler)(void));
+# 338 "./mcc_generated_files/system/../system/interrupt.h"
+extern void (*INT2_InterruptHandler)(void);
+# 347 "./mcc_generated_files/system/../system/interrupt.h"
+void INT2_DefaultInterruptHandler(void);
+# 48 "./mcc_generated_files/system/system.h" 2
+
+# 1 "./RGB_LED.h" 1
+# 63 "./RGB_LED.h"
+void Load_bufferRegisters(void);
+void setRGB(uint16_t red, uint16_t green, uint16_t blue);
+void rgbTest1 (void);
+void rgbTest (void);
+void colorCycle(void);
+void breathingEffect(void);
+void rainbowCycle(void);
+# 50 "./mcc_generated_files/system/system.h" 2
+
+
+
+
+
+
+
+
+void SYSTEM_Initialize(void);
+# 36 "./RGB_LED.h" 2
 # 63 "./RGB_LED.h"
 void Load_bufferRegisters(void);
 void setRGB(uint16_t red, uint16_t green, uint16_t blue);
@@ -28474,6 +29074,23 @@ void breathingEffect(void);
 void rainbowCycle(void);
 # 2 "RGB_LED.c" 2
 
+
+void Load_bufferRegisters(void){
+
+    PWM1_16BIT_LoadBufferRegisters();
+    PWM2_16BIT_LoadBufferRegisters();
+    PWM3_16BIT_LoadBufferRegisters();
+
+}
+void setRGB(uint16_t red, uint16_t green, uint16_t blue)
+{
+
+    PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);
+    PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);
+    PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);
+    Load_bufferRegisters();
+
+}
 
 
 

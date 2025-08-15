@@ -1,7 +1,22 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"64 ./RGB_LED.h
-[; ;./RGB_LED.h: 64: void setRGB(uint16_t red, uint16_t green, uint16_t blue);
-[v _setRGB `(v ~T0 @X0 0 ef3`us`us`us ]
+"101 ./mcc_generated_files/system/../pwm/pwm1_16bit.h
+[; ;./mcc_generated_files/system/../pwm/pwm1_16bit.h: 101: void PWM1_16BIT_LoadBufferRegisters(void);
+[v _PWM1_16BIT_LoadBufferRegisters `(v ~T0 @X0 0 ef ]
+"101 ./mcc_generated_files/system/../pwm/pwm2_16bit.h
+[; ;./mcc_generated_files/system/../pwm/pwm2_16bit.h: 101: void PWM2_16BIT_LoadBufferRegisters(void);
+[v _PWM2_16BIT_LoadBufferRegisters `(v ~T0 @X0 0 ef ]
+"101 ./mcc_generated_files/system/../pwm/pwm3_16bit.h
+[; ;./mcc_generated_files/system/../pwm/pwm3_16bit.h: 101: void PWM3_16BIT_LoadBufferRegisters(void);
+[v _PWM3_16BIT_LoadBufferRegisters `(v ~T0 @X0 0 ef ]
+"83
+[; ;./mcc_generated_files/system/../pwm/pwm3_16bit.h: 83: void PWM3_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+[v _PWM3_16BIT_SetSlice1Output1DutyCycleRegister `(v ~T0 @X0 0 ef1`us ]
+"83 ./mcc_generated_files/system/../pwm/pwm2_16bit.h
+[; ;./mcc_generated_files/system/../pwm/pwm2_16bit.h: 83: void PWM2_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+[v _PWM2_16BIT_SetSlice1Output1DutyCycleRegister `(v ~T0 @X0 0 ef1`us ]
+"83 ./mcc_generated_files/system/../pwm/pwm1_16bit.h
+[; ;./mcc_generated_files/system/../pwm/pwm1_16bit.h: 83: void PWM1_16BIT_SetSlice1Output1DutyCycleRegister(uint16_t value);
+[v _PWM1_16BIT_SetSlice1Output1DutyCycleRegister `(v ~T0 @X0 0 ef1`us ]
 [v F205 `(v ~T0 @X0 1 tf1`ul ]
 "20 C:\Program Files\Microchip\xc8\v3.00\pic\include/builtins.h
 [v __delay `JF205 ~T0 @X0 0 e ]
@@ -2373,515 +2388,565 @@ Version 4.0 HI-TECH Software Intermediate Code
 "47969
 [; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18F-Q_DFP/1.27.449/xc8\pic\include\proc/pic18f56q71.h: 47969: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"6 RGB_LED.c
-[; ;RGB_LED.c: 6: void colorCycle(void)
-[v _colorCycle `(v ~T0 @X0 1 ef ]
+"4 RGB_LED.c
+[; ;RGB_LED.c: 4: void Load_bufferRegisters(void){
+[v _Load_bufferRegisters `(v ~T0 @X0 1 ef ]
+{
+[e :U _Load_bufferRegisters ]
+[f ]
+"6
+[; ;RGB_LED.c: 6:     PWM1_16BIT_LoadBufferRegisters();
+[e ( _PWM1_16BIT_LoadBufferRegisters ..  ]
 "7
-[; ;RGB_LED.c: 7: {
+[; ;RGB_LED.c: 7:     PWM2_16BIT_LoadBufferRegisters();
+[e ( _PWM2_16BIT_LoadBufferRegisters ..  ]
+"8
+[; ;RGB_LED.c: 8:     PWM3_16BIT_LoadBufferRegisters();
+[e ( _PWM3_16BIT_LoadBufferRegisters ..  ]
+"10
+[; ;RGB_LED.c: 10: }
+[e :UE 2226 ]
+}
+"11
+[; ;RGB_LED.c: 11: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
+[v _setRGB `(v ~T0 @X0 1 ef3`us`us`us ]
+"12
+[; ;RGB_LED.c: 12: {
+{
+[e :U _setRGB ]
+"11
+[; ;RGB_LED.c: 11: void setRGB(uint16_t red, uint16_t green, uint16_t blue)
+[v _red `us ~T0 @X0 1 r1 ]
+[v _green `us ~T0 @X0 1 r2 ]
+[v _blue `us ~T0 @X0 1 r3 ]
+"12
+[; ;RGB_LED.c: 12: {
+[f ]
+"14
+[; ;RGB_LED.c: 14:     PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);
+[e ( _PWM3_16BIT_SetSlice1Output1DutyCycleRegister (1 _red ]
+"15
+[; ;RGB_LED.c: 15:     PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);
+[e ( _PWM2_16BIT_SetSlice1Output1DutyCycleRegister (1 _green ]
+"16
+[; ;RGB_LED.c: 16:     PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);
+[e ( _PWM1_16BIT_SetSlice1Output1DutyCycleRegister (1 _blue ]
+"17
+[; ;RGB_LED.c: 17:     Load_bufferRegisters();
+[e ( _Load_bufferRegisters ..  ]
+"19
+[; ;RGB_LED.c: 19: }
+[e :UE 2227 ]
+}
+"23
+[; ;RGB_LED.c: 23: void colorCycle(void)
+[v _colorCycle `(v ~T0 @X0 1 ef ]
+"24
+[; ;RGB_LED.c: 24: {
 {
 [e :U _colorCycle ]
 [f ]
-"8
-[; ;RGB_LED.c: 8:     uint16_t i;
+"25
+[; ;RGB_LED.c: 25:     uint16_t i;
 [v _i `us ~T0 @X0 1 a ]
-"9
-[; ;RGB_LED.c: 9:     uint16_t step = 48;
+"26
+[; ;RGB_LED.c: 26:     uint16_t step = 48;
 [v _step `us ~T0 @X0 1 a ]
 [e = _step -> -> 48 `i `us ]
-"12
-[; ;RGB_LED.c: 12:     for(i = 0; i <= (64511 -step); i += step)
-{
-[e = _i -> -> 0 `i `us ]
-[e $U 2229  ]
-[e :U 2226 ]
-"13
-[; ;RGB_LED.c: 13:     {
-{
-"14
-[; ;RGB_LED.c: 14:         setRGB(64511/2, i, 0);
-[e ( _setRGB (3 , , -> / -> 64511 `l -> -> 2 `i `l `us _i -> -> 0 `i `us ]
-"15
-[; ;RGB_LED.c: 15:         _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"16
-[; ;RGB_LED.c: 16:     }
-}
-[e =+ _i -> _step `us ]
-[e :U 2229 ]
-[e $ <= -> _i `l - -> 64511 `l -> _step `l 2226  ]
-[e :U 2227 ]
-}
-"19
-[; ;RGB_LED.c: 19:     for(i = 64511; i >= step; i -= step)
-{
-[e = _i -> -> 64511 `l `us ]
-[e $U 2233  ]
-[e :U 2230 ]
-"20
-[; ;RGB_LED.c: 20:     {
-{
-"21
-[; ;RGB_LED.c: 21:         setRGB(i, 64511, 0);
-[e ( _setRGB (3 , , _i -> -> 64511 `l `us -> -> 0 `i `us ]
-"22
-[; ;RGB_LED.c: 22:         _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"23
-[; ;RGB_LED.c: 23:     }
-}
-[e =- _i -> _step `us ]
-[e :U 2233 ]
-[e $ >= -> _i `ui -> _step `ui 2230  ]
-[e :U 2231 ]
-}
-"24
-[; ;RGB_LED.c: 24:     setRGB(0, 64511, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
-"25
-[; ;RGB_LED.c: 25:     _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"28
-[; ;RGB_LED.c: 28:     for(i = 0; i <= (64511 -step); i += step)
-{
-[e = _i -> -> 0 `i `us ]
-[e $U 2237  ]
-[e :U 2234 ]
 "29
-[; ;RGB_LED.c: 29:     {
-{
-"30
-[; ;RGB_LED.c: 30:         setRGB(0, 64511, i);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us _i ]
-"31
-[; ;RGB_LED.c: 31:         _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"32
-[; ;RGB_LED.c: 32:     }
-}
-[e =+ _i -> _step `us ]
-[e :U 2237 ]
-[e $ <= -> _i `l - -> 64511 `l -> _step `l 2234  ]
-[e :U 2235 ]
-}
-"35
-[; ;RGB_LED.c: 35:     for(i = 64511; i >= step; i -= step)
-{
-[e = _i -> -> 64511 `l `us ]
-[e $U 2241  ]
-[e :U 2238 ]
-"36
-[; ;RGB_LED.c: 36:     {
-{
-"37
-[; ;RGB_LED.c: 37:         setRGB(0, i, 64511);
-[e ( _setRGB (3 , , -> -> 0 `i `us _i -> -> 64511 `l `us ]
-"38
-[; ;RGB_LED.c: 38:         _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"39
-[; ;RGB_LED.c: 39:     }
-}
-[e =- _i -> _step `us ]
-[e :U 2241 ]
-[e $ >= -> _i `ui -> _step `ui 2238  ]
-[e :U 2239 ]
-}
-"40
-[; ;RGB_LED.c: 40:     setRGB(0, 0, 64511);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
-"41
-[; ;RGB_LED.c: 41:     _delay(10000);
-[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"44
-[; ;RGB_LED.c: 44:     for(i = 0; i <= (64511 -step); i += step)
+[; ;RGB_LED.c: 29:     for(i = 0; i <= (64511 -step); i += step)
 {
 [e = _i -> -> 0 `i `us ]
-[e $U 2245  ]
-[e :U 2242 ]
-"45
-[; ;RGB_LED.c: 45:     {
+[e $U 2232  ]
+[e :U 2229 ]
+"30
+[; ;RGB_LED.c: 30:     {
 {
-"46
-[; ;RGB_LED.c: 46:         setRGB(i, 0, 64511);
-[e ( _setRGB (3 , , _i -> -> 0 `i `us -> -> 64511 `l `us ]
-"47
-[; ;RGB_LED.c: 47:         _delay(10000);
+"31
+[; ;RGB_LED.c: 31:         setRGB(64511/2, i, 0);
+[e ( _setRGB (3 , , -> / -> 64511 `l -> -> 2 `i `l `us _i -> -> 0 `i `us ]
+"32
+[; ;RGB_LED.c: 32:         _delay(10000);
 [e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"48
-[; ;RGB_LED.c: 48:     }
+"33
+[; ;RGB_LED.c: 33:     }
 }
 [e =+ _i -> _step `us ]
-[e :U 2245 ]
-[e $ <= -> _i `l - -> 64511 `l -> _step `l 2242  ]
-[e :U 2243 ]
+[e :U 2232 ]
+[e $ <= -> _i `l - -> 64511 `l -> _step `l 2229  ]
+[e :U 2230 ]
 }
-"51
-[; ;RGB_LED.c: 51:     for(i = 64511; i >= step; i -= step)
+"36
+[; ;RGB_LED.c: 36:     for(i = 64511; i >= step; i -= step)
 {
 [e = _i -> -> 64511 `l `us ]
-[e $U 2249  ]
-[e :U 2246 ]
-"52
-[; ;RGB_LED.c: 52:     {
+[e $U 2236  ]
+[e :U 2233 ]
+"37
+[; ;RGB_LED.c: 37:     {
 {
-"53
-[; ;RGB_LED.c: 53:         setRGB(64511, 0, i);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us _i ]
-"54
-[; ;RGB_LED.c: 54:         _delay(10000);
+"38
+[; ;RGB_LED.c: 38:         setRGB(i, 64511, 0);
+[e ( _setRGB (3 , , _i -> -> 64511 `l `us -> -> 0 `i `us ]
+"39
+[; ;RGB_LED.c: 39:         _delay(10000);
 [e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"55
-[; ;RGB_LED.c: 55:     }
+"40
+[; ;RGB_LED.c: 40:     }
 }
 [e =- _i -> _step `us ]
-[e :U 2249 ]
-[e $ >= -> _i `ui -> _step `ui 2246  ]
-[e :U 2247 ]
+[e :U 2236 ]
+[e $ >= -> _i `ui -> _step `ui 2233  ]
+[e :U 2234 ]
 }
-"56
-[; ;RGB_LED.c: 56:     setRGB(64511, 0, 0);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
-"57
-[; ;RGB_LED.c: 57:     _delay(10000);
+"41
+[; ;RGB_LED.c: 41:     setRGB(0, 64511, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
+"42
+[; ;RGB_LED.c: 42:     _delay(10000);
 [e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"58
-[; ;RGB_LED.c: 58:     setRGB(0, 0, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"60
-[; ;RGB_LED.c: 60: }
-[e :UE 2225 ]
+"45
+[; ;RGB_LED.c: 45:     for(i = 0; i <= (64511 -step); i += step)
+{
+[e = _i -> -> 0 `i `us ]
+[e $U 2240  ]
+[e :U 2237 ]
+"46
+[; ;RGB_LED.c: 46:     {
+{
+"47
+[; ;RGB_LED.c: 47:         setRGB(0, 64511, i);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us _i ]
+"48
+[; ;RGB_LED.c: 48:         _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
+"49
+[; ;RGB_LED.c: 49:     }
 }
+[e =+ _i -> _step `us ]
+[e :U 2240 ]
+[e $ <= -> _i `l - -> 64511 `l -> _step `l 2237  ]
+[e :U 2238 ]
+}
+"52
+[; ;RGB_LED.c: 52:     for(i = 64511; i >= step; i -= step)
+{
+[e = _i -> -> 64511 `l `us ]
+[e $U 2244  ]
+[e :U 2241 ]
+"53
+[; ;RGB_LED.c: 53:     {
+{
+"54
+[; ;RGB_LED.c: 54:         setRGB(0, i, 64511);
+[e ( _setRGB (3 , , -> -> 0 `i `us _i -> -> 64511 `l `us ]
+"55
+[; ;RGB_LED.c: 55:         _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
+"56
+[; ;RGB_LED.c: 56:     }
+}
+[e =- _i -> _step `us ]
+[e :U 2244 ]
+[e $ >= -> _i `ui -> _step `ui 2241  ]
+[e :U 2242 ]
+}
+"57
+[; ;RGB_LED.c: 57:     setRGB(0, 0, 64511);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
+"58
+[; ;RGB_LED.c: 58:     _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
+"61
+[; ;RGB_LED.c: 61:     for(i = 0; i <= (64511 -step); i += step)
+{
+[e = _i -> -> 0 `i `us ]
+[e $U 2248  ]
+[e :U 2245 ]
+"62
+[; ;RGB_LED.c: 62:     {
+{
+"63
+[; ;RGB_LED.c: 63:         setRGB(i, 0, 64511);
+[e ( _setRGB (3 , , _i -> -> 0 `i `us -> -> 64511 `l `us ]
+"64
+[; ;RGB_LED.c: 64:         _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
 "65
-[; ;RGB_LED.c: 65: void breathingEffect(void)
+[; ;RGB_LED.c: 65:     }
+}
+[e =+ _i -> _step `us ]
+[e :U 2248 ]
+[e $ <= -> _i `l - -> 64511 `l -> _step `l 2245  ]
+[e :U 2246 ]
+}
+"68
+[; ;RGB_LED.c: 68:     for(i = 64511; i >= step; i -= step)
+{
+[e = _i -> -> 64511 `l `us ]
+[e $U 2252  ]
+[e :U 2249 ]
+"69
+[; ;RGB_LED.c: 69:     {
+{
+"70
+[; ;RGB_LED.c: 70:         setRGB(64511, 0, i);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us _i ]
+"71
+[; ;RGB_LED.c: 71:         _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
+"72
+[; ;RGB_LED.c: 72:     }
+}
+[e =- _i -> _step `us ]
+[e :U 2252 ]
+[e $ >= -> _i `ui -> _step `ui 2249  ]
+[e :U 2250 ]
+}
+"73
+[; ;RGB_LED.c: 73:     setRGB(64511, 0, 0);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
+"74
+[; ;RGB_LED.c: 74:     _delay(10000);
+[e ( __delay (1 -> -> -> 10000 `i `l `ul ]
+"75
+[; ;RGB_LED.c: 75:     setRGB(0, 0, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
+"77
+[; ;RGB_LED.c: 77: }
+[e :UE 2228 ]
+}
+"82
+[; ;RGB_LED.c: 82: void breathingEffect(void)
 [v _breathingEffect `(v ~T0 @X0 1 ef ]
-"66
-[; ;RGB_LED.c: 66: {
+"83
+[; ;RGB_LED.c: 83: {
 {
 [e :U _breathingEffect ]
 [f ]
-"67
-[; ;RGB_LED.c: 67:     uint16_t i;
+"84
+[; ;RGB_LED.c: 84:     uint16_t i;
 [v _i `us ~T0 @X0 1 a ]
-"68
-[; ;RGB_LED.c: 68:     uint8_t cycles = 3;
+"85
+[; ;RGB_LED.c: 85:     uint8_t cycles = 3;
 [v _cycles `uc ~T0 @X0 1 a ]
 [e = _cycles -> -> 3 `i `uc ]
-"69
-[; ;RGB_LED.c: 69:     uint16_t step = 48;
+"86
+[; ;RGB_LED.c: 86:     uint16_t step = 48;
 [v _step `us ~T0 @X0 1 a ]
 [e = _step -> -> 48 `i `us ]
-"71
-[; ;RGB_LED.c: 71:     while(cycles--)
-[e $U 2251  ]
-[e :U 2252 ]
-"72
-[; ;RGB_LED.c: 72:     {
+"88
+[; ;RGB_LED.c: 88:     while(cycles--)
+[e $U 2254  ]
+[e :U 2255 ]
+"89
+[; ;RGB_LED.c: 89:     {
 {
-"74
-[; ;RGB_LED.c: 74:         for(i = 0; i <= (64511 - step); i += step)
+"91
+[; ;RGB_LED.c: 91:         for(i = 0; i <= (64511 - step); i += step)
 {
 [e = _i -> -> 0 `i `us ]
-[e $U 2257  ]
-[e :U 2254 ]
-"75
-[; ;RGB_LED.c: 75:         {
+[e $U 2260  ]
+[e :U 2257 ]
+"92
+[; ;RGB_LED.c: 92:         {
 {
-"76
-[; ;RGB_LED.c: 76:             setRGB(i, i, i);
+"93
+[; ;RGB_LED.c: 93:             setRGB(i, i, i);
 [e ( _setRGB (3 , , _i _i _i ]
-"77
-[; ;RGB_LED.c: 77:             _delay(5000);
+"94
+[; ;RGB_LED.c: 94:             _delay(5000);
 [e ( __delay (1 -> -> -> 5000 `i `l `ul ]
-"78
-[; ;RGB_LED.c: 78:         }
+"95
+[; ;RGB_LED.c: 95:         }
 }
 [e =+ _i -> _step `us ]
-[e :U 2257 ]
-[e $ <= -> _i `l - -> 64511 `l -> _step `l 2254  ]
-[e :U 2255 ]
+[e :U 2260 ]
+[e $ <= -> _i `l - -> 64511 `l -> _step `l 2257  ]
+[e :U 2258 ]
 }
-"81
-[; ;RGB_LED.c: 81:         for(i = 64511; i > (1+step); i -= step)
+"98
+[; ;RGB_LED.c: 98:         for(i = 64511; i > (1+step); i -= step)
 {
 [e = _i -> -> 64511 `l `us ]
-[e $U 2261  ]
-[e :U 2258 ]
-"82
-[; ;RGB_LED.c: 82:         {
+[e $U 2264  ]
+[e :U 2261 ]
+"99
+[; ;RGB_LED.c: 99:         {
 {
-"83
-[; ;RGB_LED.c: 83:             setRGB(i, i, i);
+"100
+[; ;RGB_LED.c: 100:             setRGB(i, i, i);
 [e ( _setRGB (3 , , _i _i _i ]
-"84
-[; ;RGB_LED.c: 84:             _delay(5000);
+"101
+[; ;RGB_LED.c: 101:             _delay(5000);
 [e ( __delay (1 -> -> -> 5000 `i `l `ul ]
-"85
-[; ;RGB_LED.c: 85:         }
+"102
+[; ;RGB_LED.c: 102:         }
 }
 [e =- _i -> _step `us ]
-[e :U 2261 ]
-[e $ > -> _i `ui + -> -> 1 `i `ui -> _step `ui 2258  ]
-[e :U 2259 ]
+[e :U 2264 ]
+[e $ > -> _i `ui + -> -> 1 `i `ui -> _step `ui 2261  ]
+[e :U 2262 ]
 }
-"87
-[; ;RGB_LED.c: 87:         setRGB(0, 0, 0);
+"104
+[; ;RGB_LED.c: 104:         setRGB(0, 0, 0);
 [e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"88
-[; ;RGB_LED.c: 88:         _delay(5000);
+"105
+[; ;RGB_LED.c: 105:         _delay(5000);
 [e ( __delay (1 -> -> -> 5000 `i `l `ul ]
-"89
-[; ;RGB_LED.c: 89:     }
+"106
+[; ;RGB_LED.c: 106:     }
 }
-[e :U 2251 ]
-"71
-[; ;RGB_LED.c: 71:     while(cycles--)
-[e $ != -> -- _cycles -> -> 1 `i `uc `i -> 0 `i 2252  ]
-[e :U 2253 ]
-"90
-[; ;RGB_LED.c: 90: }
-[e :UE 2250 ]
+[e :U 2254 ]
+"88
+[; ;RGB_LED.c: 88:     while(cycles--)
+[e $ != -> -- _cycles -> -> 1 `i `uc `i -> 0 `i 2255  ]
+[e :U 2256 ]
+"107
+[; ;RGB_LED.c: 107: }
+[e :UE 2253 ]
 }
-"95
-[; ;RGB_LED.c: 95: void rainbowCycle(void){
+"112
+[; ;RGB_LED.c: 112: void rainbowCycle(void){
 [v _rainbowCycle `(v ~T0 @X0 1 ef ]
 {
 [e :U _rainbowCycle ]
 [f ]
-"96
-[; ;RGB_LED.c: 96:     uint16_t j;
+"113
+[; ;RGB_LED.c: 113:     uint16_t j;
 [v _j `us ~T0 @X0 1 a ]
-"97
-[; ;RGB_LED.c: 97:     uint16_t r, g, b;
+"114
+[; ;RGB_LED.c: 114:     uint16_t r, g, b;
 [v _r `us ~T0 @X0 1 a ]
 [v _g `us ~T0 @X0 1 a ]
 [v _b `us ~T0 @X0 1 a ]
-"99
-[; ;RGB_LED.c: 99:     for(j = 0; j < 256; j++)
+"116
+[; ;RGB_LED.c: 116:     for(j = 0; j < 256; j++)
 {
 [e = _j -> -> 0 `i `us ]
-[e $ < -> _j `ui -> -> 256 `i `ui 2263  ]
-[e $U 2264  ]
-[e :U 2263 ]
-"100
-[; ;RGB_LED.c: 100:     {
-{
-"102
-[; ;RGB_LED.c: 102:         if(j < 85)
-[e $ ! < -> _j `ui -> -> 85 `i `ui 2266  ]
-"103
-[; ;RGB_LED.c: 103:         {
-{
-"105
-[; ;RGB_LED.c: 105:             r = 64511;
-[e = _r -> -> 64511 `l `us ]
-"106
-[; ;RGB_LED.c: 106:             g = (j * 64511) / 85;
-[e = _g -> / * -> _j `l -> 64511 `l -> -> 85 `i `l `us ]
-"107
-[; ;RGB_LED.c: 107:             b = 0;
-[e = _b -> -> 0 `i `us ]
-"108
-[; ;RGB_LED.c: 108:         }
-}
+[e $ < -> _j `ui -> -> 256 `i `ui 2266  ]
 [e $U 2267  ]
-"109
-[; ;RGB_LED.c: 109:         else if(j < 170)
 [e :U 2266 ]
-[e $ ! < -> _j `ui -> -> 170 `i `ui 2268  ]
-"110
-[; ;RGB_LED.c: 110:         {
+"117
+[; ;RGB_LED.c: 117:     {
 {
-"112
-[; ;RGB_LED.c: 112:             uint16_t phase = j - 85;
+"119
+[; ;RGB_LED.c: 119:         if(j < 85)
+[e $ ! < -> _j `ui -> -> 85 `i `ui 2269  ]
+"120
+[; ;RGB_LED.c: 120:         {
+{
+"122
+[; ;RGB_LED.c: 122:             r = 64511;
+[e = _r -> -> 64511 `l `us ]
+"123
+[; ;RGB_LED.c: 123:             g = (j * 64511) / 85;
+[e = _g -> / * -> _j `l -> 64511 `l -> -> 85 `i `l `us ]
+"124
+[; ;RGB_LED.c: 124:             b = 0;
+[e = _b -> -> 0 `i `us ]
+"125
+[; ;RGB_LED.c: 125:         }
+}
+[e $U 2270  ]
+"126
+[; ;RGB_LED.c: 126:         else if(j < 170)
+[e :U 2269 ]
+[e $ ! < -> _j `ui -> -> 170 `i `ui 2271  ]
+"127
+[; ;RGB_LED.c: 127:         {
+{
+"129
+[; ;RGB_LED.c: 129:             uint16_t phase = j - 85;
 [v _phase `us ~T0 @X0 1 a ]
 [e = _phase -> - -> _j `ui -> -> 85 `i `ui `us ]
-"113
-[; ;RGB_LED.c: 113:             r = ((85 - phase) * 64511) / 85;
+"130
+[; ;RGB_LED.c: 130:             r = ((85 - phase) * 64511) / 85;
 [e = _r -> / * -> - -> -> 85 `i `ui -> _phase `ui `l -> 64511 `l -> -> 85 `i `l `us ]
-"114
-[; ;RGB_LED.c: 114:             g = 64511;
+"131
+[; ;RGB_LED.c: 131:             g = 64511;
 [e = _g -> -> 64511 `l `us ]
-"115
-[; ;RGB_LED.c: 115:             b = (phase * 64511) / 85;
+"132
+[; ;RGB_LED.c: 132:             b = (phase * 64511) / 85;
 [e = _b -> / * -> _phase `l -> 64511 `l -> -> 85 `i `l `us ]
-"116
-[; ;RGB_LED.c: 116:         }
+"133
+[; ;RGB_LED.c: 133:         }
 }
-[e $U 2269  ]
-"117
-[; ;RGB_LED.c: 117:         else
-[e :U 2268 ]
-"118
-[; ;RGB_LED.c: 118:         {
+[e $U 2272  ]
+"134
+[; ;RGB_LED.c: 134:         else
+[e :U 2271 ]
+"135
+[; ;RGB_LED.c: 135:         {
 {
-"120
-[; ;RGB_LED.c: 120:             uint16_t phase = j - 170;
+"137
+[; ;RGB_LED.c: 137:             uint16_t phase = j - 170;
 [v _phase `us ~T0 @X0 1 a ]
 [e = _phase -> - -> _j `ui -> -> 170 `i `ui `us ]
-"121
-[; ;RGB_LED.c: 121:             r = (phase * 64511) / 85;
+"138
+[; ;RGB_LED.c: 138:             r = (phase * 64511) / 85;
 [e = _r -> / * -> _phase `l -> 64511 `l -> -> 85 `i `l `us ]
-"122
-[; ;RGB_LED.c: 122:             g = ((85 - phase) * 64511) / 85;
+"139
+[; ;RGB_LED.c: 139:             g = ((85 - phase) * 64511) / 85;
 [e = _g -> / * -> - -> -> 85 `i `ui -> _phase `ui `l -> 64511 `l -> -> 85 `i `l `us ]
-"123
-[; ;RGB_LED.c: 123:             b = 64511;
+"140
+[; ;RGB_LED.c: 140:             b = 64511;
 [e = _b -> -> 64511 `l `us ]
-"124
-[; ;RGB_LED.c: 124:         }
+"141
+[; ;RGB_LED.c: 141:         }
 }
-[e :U 2269 ]
-[e :U 2267 ]
-"126
-[; ;RGB_LED.c: 126:         setRGB(r, g, b);
+[e :U 2272 ]
+[e :U 2270 ]
+"143
+[; ;RGB_LED.c: 143:         setRGB(r, g, b);
 [e ( _setRGB (3 , , _r _g _b ]
-"127
-[; ;RGB_LED.c: 127:         _delay(10000);
+"144
+[; ;RGB_LED.c: 144:         _delay(10000);
 [e ( __delay (1 -> -> -> 10000 `i `l `ul ]
-"128
-[; ;RGB_LED.c: 128:     }
+"145
+[; ;RGB_LED.c: 145:     }
 }
 [e ++ _j -> -> 1 `i `us ]
-[e $ < -> _j `ui -> -> 256 `i `ui 2263  ]
-[e :U 2264 ]
+[e $ < -> _j `ui -> -> 256 `i `ui 2266  ]
+[e :U 2267 ]
 }
-"129
-[; ;RGB_LED.c: 129: }
-[e :UE 2262 ]
+"146
+[; ;RGB_LED.c: 146: }
+[e :UE 2265 ]
 }
-"135
-[; ;RGB_LED.c: 135: void rgbTest1 (void){
+"152
+[; ;RGB_LED.c: 152: void rgbTest1 (void){
 [v _rgbTest1 `(v ~T0 @X0 1 ef ]
 {
 [e :U _rgbTest1 ]
 [f ]
-"137
-[; ;RGB_LED.c: 137:         setRGB(16000, 0, 0);
-[e ( _setRGB (3 , , -> -> 16000 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"138
-[; ;RGB_LED.c: 138:         _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"140
-[; ;RGB_LED.c: 140:         setRGB(32000, 0, 0);
-[e ( _setRGB (3 , , -> -> 32000 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"141
-[; ;RGB_LED.c: 141:         _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"143
-[; ;RGB_LED.c: 143:         setRGB(64511, 0, 0);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
-"144
-[; ;RGB_LED.c: 144:         _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"147
-[; ;RGB_LED.c: 147:         setRGB(0,16000, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 16000 `i `us -> -> 0 `i `us ]
-"148
-[; ;RGB_LED.c: 148:         _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"150
-[; ;RGB_LED.c: 150:         setRGB(0,32000, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 32000 `i `us -> -> 0 `i `us ]
-"151
-[; ;RGB_LED.c: 151:         _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"153
-[; ;RGB_LED.c: 153:         setRGB(0,64511, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
 "154
-[; ;RGB_LED.c: 154:         _delay(5000000);
+[; ;RGB_LED.c: 154:         setRGB(16000, 0, 0);
+[e ( _setRGB (3 , , -> -> 16000 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
+"155
+[; ;RGB_LED.c: 155:         _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
 "157
-[; ;RGB_LED.c: 157:         setRGB(0,0, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
+[; ;RGB_LED.c: 157:         setRGB(32000, 0, 0);
+[e ( _setRGB (3 , , -> -> 32000 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
 "158
 [; ;RGB_LED.c: 158:         _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
+"160
+[; ;RGB_LED.c: 160:         setRGB(64511, 0, 0);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
 "161
-[; ;RGB_LED.c: 161:         setRGB(0,0, 16000);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 16000 `i `us ]
-"162
-[; ;RGB_LED.c: 162:         _delay(5000000);
+[; ;RGB_LED.c: 161:         _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
 "164
-[; ;RGB_LED.c: 164:         setRGB(0,0, 32000);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 32000 `i `us ]
+[; ;RGB_LED.c: 164:         setRGB(0,16000, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 16000 `i `us -> -> 0 `i `us ]
 "165
 [; ;RGB_LED.c: 165:         _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
 "167
-[; ;RGB_LED.c: 167:         setRGB(0,0, 64511);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
+[; ;RGB_LED.c: 167:         setRGB(0,32000, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 32000 `i `us -> -> 0 `i `us ]
 "168
 [; ;RGB_LED.c: 168:         _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
-"169
-[; ;RGB_LED.c: 169: }
-[e :UE 2270 ]
-}
 "170
-[; ;RGB_LED.c: 170: void rgbTest(void)
-[v _rgbTest `(v ~T0 @X0 1 ef ]
+[; ;RGB_LED.c: 170:         setRGB(0,64511, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
 "171
-[; ;RGB_LED.c: 171: {
+[; ;RGB_LED.c: 171:         _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"174
+[; ;RGB_LED.c: 174:         setRGB(0,0, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
+"175
+[; ;RGB_LED.c: 175:         _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"178
+[; ;RGB_LED.c: 178:         setRGB(0,0, 16000);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 16000 `i `us ]
+"179
+[; ;RGB_LED.c: 179:         _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"181
+[; ;RGB_LED.c: 181:         setRGB(0,0, 32000);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 32000 `i `us ]
+"182
+[; ;RGB_LED.c: 182:         _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"184
+[; ;RGB_LED.c: 184:         setRGB(0,0, 64511);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
+"185
+[; ;RGB_LED.c: 185:         _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"186
+[; ;RGB_LED.c: 186: }
+[e :UE 2273 ]
+}
+"187
+[; ;RGB_LED.c: 187: void rgbTest(void)
+[v _rgbTest `(v ~T0 @X0 1 ef ]
+"188
+[; ;RGB_LED.c: 188: {
 {
 [e :U _rgbTest ]
 [f ]
-"173
-[; ;RGB_LED.c: 173:     setRGB(0, 0, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"174
-[; ;RGB_LED.c: 174:     _delay(5000000);
-[e ( __delay (1 -> -> 5000000 `l `ul ]
-"177
-[; ;RGB_LED.c: 177:     setRGB(64511, 0, 0);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
-"178
-[; ;RGB_LED.c: 178:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"181
-[; ;RGB_LED.c: 181:     setRGB(0, 64511, 0);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
-"182
-[; ;RGB_LED.c: 182:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"185
-[; ;RGB_LED.c: 185:     setRGB(0, 0, 64511);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
-"186
-[; ;RGB_LED.c: 186:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"189
-[; ;RGB_LED.c: 189:     setRGB(64511, 64511, 64511);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 64511 `l `us -> -> 64511 `l `us ]
 "190
-[; ;RGB_LED.c: 190:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"193
-[; ;RGB_LED.c: 193:     setRGB(64511, 64511, 0);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 64511 `l `us -> -> 0 `i `us ]
-"194
-[; ;RGB_LED.c: 194:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"197
-[; ;RGB_LED.c: 197:     setRGB(0, 64511, 64511);
-[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 64511 `l `us ]
-"198
-[; ;RGB_LED.c: 198:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"201
-[; ;RGB_LED.c: 201:     setRGB(64511, 0, 64511);
-[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 64511 `l `us ]
-"202
-[; ;RGB_LED.c: 202:     _delay(10000000);
-[e ( __delay (1 -> -> 10000000 `l `ul ]
-"205
-[; ;RGB_LED.c: 205:     setRGB(0, 0, 0);
+[; ;RGB_LED.c: 190:     setRGB(0, 0, 0);
 [e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
-"206
-[; ;RGB_LED.c: 206:     _delay(5000000);
+"191
+[; ;RGB_LED.c: 191:     _delay(5000000);
 [e ( __delay (1 -> -> 5000000 `l `ul ]
+"194
+[; ;RGB_LED.c: 194:     setRGB(64511, 0, 0);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 0 `i `us ]
+"195
+[; ;RGB_LED.c: 195:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"198
+[; ;RGB_LED.c: 198:     setRGB(0, 64511, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 0 `i `us ]
+"199
+[; ;RGB_LED.c: 199:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"202
+[; ;RGB_LED.c: 202:     setRGB(0, 0, 64511);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 64511 `l `us ]
+"203
+[; ;RGB_LED.c: 203:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"206
+[; ;RGB_LED.c: 206:     setRGB(64511, 64511, 64511);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 64511 `l `us -> -> 64511 `l `us ]
 "207
-[; ;RGB_LED.c: 207: }
-[e :UE 2271 ]
+[; ;RGB_LED.c: 207:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"210
+[; ;RGB_LED.c: 210:     setRGB(64511, 64511, 0);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 64511 `l `us -> -> 0 `i `us ]
+"211
+[; ;RGB_LED.c: 211:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"214
+[; ;RGB_LED.c: 214:     setRGB(0, 64511, 64511);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 64511 `l `us -> -> 64511 `l `us ]
+"215
+[; ;RGB_LED.c: 215:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"218
+[; ;RGB_LED.c: 218:     setRGB(64511, 0, 64511);
+[e ( _setRGB (3 , , -> -> 64511 `l `us -> -> 0 `i `us -> -> 64511 `l `us ]
+"219
+[; ;RGB_LED.c: 219:     _delay(10000000);
+[e ( __delay (1 -> -> 10000000 `l `ul ]
+"222
+[; ;RGB_LED.c: 222:     setRGB(0, 0, 0);
+[e ( _setRGB (3 , , -> -> 0 `i `us -> -> 0 `i `us -> -> 0 `i `us ]
+"223
+[; ;RGB_LED.c: 223:     _delay(5000000);
+[e ( __delay (1 -> -> 5000000 `l `ul ]
+"224
+[; ;RGB_LED.c: 224: }
+[e :UE 2274 ]
 }

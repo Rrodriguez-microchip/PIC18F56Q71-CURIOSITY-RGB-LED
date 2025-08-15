@@ -29046,6 +29046,9 @@ void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
 
 
 # 1 "mcc_generated_files/system/src/../../system/../../RGB_LED.h" 1
+# 35 "mcc_generated_files/system/src/../../system/../../RGB_LED.h"
+# 1 "mcc_generated_files/system/src/../../system/system.h" 1
+# 36 "mcc_generated_files/system/src/../../system/../../RGB_LED.h" 2
 # 63 "mcc_generated_files/system/src/../../system/../../RGB_LED.h"
 void Load_bufferRegisters(void);
 void setRGB(uint16_t red, uint16_t green, uint16_t blue);

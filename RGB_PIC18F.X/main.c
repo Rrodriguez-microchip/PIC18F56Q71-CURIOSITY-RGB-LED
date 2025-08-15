@@ -52,31 +52,12 @@ int main(void)
     // Disable the Global Interrupts 
     //INTERRUPT_GlobalInterruptDisable(); 
 
-
     while(1)
     {
-//        colorCycle();       
+        colorCycle();       
 //        breathingEffect();
 //        rainbowCycle();
-        setRGB(PWM_MAX,0,0);
-        _delay(1000);
-        setRGB(0,PWM_MAX,0);
     }    
 }
 
-void Load_bufferRegisters(void){
-    
-    PWM1_16BIT_LoadBufferRegisters();
-    PWM2_16BIT_LoadBufferRegisters();
-    PWM3_16BIT_LoadBufferRegisters();
-        
-}
-void setRGB(uint16_t red, uint16_t green, uint16_t blue)
-{
-    // Assuming PWM1 = Blue, PWM2 = Green, PWM3 = Red
-    PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);       // Red 
-    PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);      // Green 
-    PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);      // Blue   
-    Load_bufferRegisters();
-    
-}
+

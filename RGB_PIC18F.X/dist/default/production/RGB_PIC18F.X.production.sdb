@@ -83,10 +83,6 @@ TMR2_UART2_TX_EDGE 26
 [v ___omul __omul `(uo  1 e 8 0 ]
 "41 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
 [v _main main `(i  1 e 2 0 ]
-"67
-[v _Load_bufferRegisters Load_bufferRegisters `(v  1 e 1 0 ]
-"74
-[v _setRGB setRGB `(v  1 e 1 0 ]
 "50 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm1_16bit.c
 [v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
 "137
@@ -183,6 +179,12 @@ TMR2_UART2_TX_EDGE 26
 [v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
 "140
 [v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
+"4 C:\GITHUBS\RGB LED\RGB_PIC18F.X\RGB_LED.c
+[v _Load_bufferRegisters Load_bufferRegisters `(v  1 e 1 0 ]
+"11
+[v _setRGB setRGB `(v  1 e 1 0 ]
+"23
+[v _colorCycle colorCycle `(v  1 e 1 0 ]
 "3838 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18F-Q_DFP/1.27.449/xc8\pic\include\proc/pic18f56q71.h
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "3908
@@ -748,15 +750,24 @@ TMR2_UART2_TX_EDGE 26
 "41 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"65
+"61
 } 0
-"74
+"23 C:\GITHUBS\RGB LED\RGB_PIC18F.X\RGB_LED.c
+[v _colorCycle colorCycle `(v  1 e 1 0 ]
+{
+"25
+[v colorCycle@i i `us  1 a 2 25 ]
+"26
+[v colorCycle@step step `us  1 a 2 23 ]
+"77
+} 0
+"11
 [v _setRGB setRGB `(v  1 e 1 0 ]
 {
 [v setRGB@red red `us  1 p 2 4 ]
 [v setRGB@green green `us  1 p 2 6 ]
 [v setRGB@blue blue `us  1 p 2 8 ]
-"82
+"19
 } 0
 "137 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_SetSlice1Output1DutyCycleRegister PWM3_16BIT_SetSlice1Output1DutyCycleRegister `(v  1 e 1 0 ]
@@ -776,10 +787,10 @@ TMR2_UART2_TX_EDGE 26
 [v PWM1_16BIT_SetSlice1Output1DutyCycleRegister@registerValue registerValue `us  1 p 2 2 ]
 "141
 } 0
-"67 C:\GITHUBS\RGB LED\RGB_PIC18F.X\main.c
+"4 C:\GITHUBS\RGB LED\RGB_PIC18F.X\RGB_LED.c
 [v _Load_bufferRegisters Load_bufferRegisters `(v  1 e 1 0 ]
 {
-"73
+"10
 } 0
 "149 C:\GITHUBS\RGB LED\RGB_PIC18F.X\mcc_generated_files/pwm/src/pwm3_16bit.c
 [v _PWM3_16BIT_LoadBufferRegisters PWM3_16BIT_LoadBufferRegisters `(v  1 e 1 0 ]

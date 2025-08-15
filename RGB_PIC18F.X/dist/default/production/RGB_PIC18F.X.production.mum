@@ -1,7 +1,7 @@
 
 18F56Q71 Memory Summary:
-    Program space        used   40Ch (  1036) of 10000h bytes   (  1.6%)
-    Data space           used    24h (    36) of  1000h bytes   (  0.9%)
+    Program space        used   718h (  1816) of 10000h bytes   (  2.8%)
+    Data space           used    35h (    53) of  1000h bytes   (  1.3%)
     Configuration bits   used     5h (     5) of     6h words   ( 83.3%)
     EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
     ID Location space    used     0h (     0) of    40h bytes   (  0.0%)

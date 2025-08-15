@@ -32,7 +32,7 @@
 #define	XC_HEADER_TEMPLATE_H
 
 #include <xc.h> 
-
+#include "mcc_generated_files/system/system.h"
 
 // Color definitions (0-65535 for 16-bit PWM)
 #define PWM_MAX 64511

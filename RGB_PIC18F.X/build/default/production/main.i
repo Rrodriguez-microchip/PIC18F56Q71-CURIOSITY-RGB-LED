@@ -29045,6 +29045,9 @@ void INT2_DefaultInterruptHandler(void);
 # 48 "./mcc_generated_files/system/system.h" 2
 
 # 1 "./mcc_generated_files/system/../../RGB_LED.h" 1
+# 35 "./mcc_generated_files/system/../../RGB_LED.h"
+# 1 "./mcc_generated_files/system/system.h" 1
+# 36 "./mcc_generated_files/system/../../RGB_LED.h" 2
 # 63 "./mcc_generated_files/system/../../RGB_LED.h"
 void Load_bufferRegisters(void);
 void setRGB(uint16_t red, uint16_t green, uint16_t blue);
@@ -29092,31 +29095,10 @@ int main(void)
 
 
 
-
     while(1)
     {
+        colorCycle();
 
 
-
-        setRGB(64511,0,0);
-        _delay(1000);
-        setRGB(0,64511,0);
     }
-}
-
-void Load_bufferRegisters(void){
-
-    PWM1_16BIT_LoadBufferRegisters();
-    PWM2_16BIT_LoadBufferRegisters();
-    PWM3_16BIT_LoadBufferRegisters();
-
-}
-void setRGB(uint16_t red, uint16_t green, uint16_t blue)
-{
-
-    PWM3_16BIT_SetSlice1Output1DutyCycleRegister(red);
-    PWM2_16BIT_SetSlice1Output1DutyCycleRegister(green);
-    PWM1_16BIT_SetSlice1Output1DutyCycleRegister(blue);
-    Load_bufferRegisters();
-
 }
