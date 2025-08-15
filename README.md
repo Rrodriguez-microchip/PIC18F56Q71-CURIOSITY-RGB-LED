@@ -8,7 +8,7 @@ This repository contains an example of Melody generated code for 3PWM control of
 The PIC18F56Q71 features four 16-bit PWM generators. In this demo, the PWM1, PWM2 and PWM3 peripherals in conjunction with TMR2 are used to produce PWM signals featuring a color game on an RGB LED. Three GPIO pins are used as outputs: RB0, RB3 and RC0.
 
 ##Related Documentation
-- ([PIC18F56Q71 Curiosity Nano Evaluation Kit](https://www.microchip.com/en-us/development-tool/ev01g21a)
+- [PIC18F56Q71 Curiosity Nano Evaluation Kit](https://www.microchip.com/en-us/development-tool/ev01g21a)
 - [PIC18F56Q71 Product Page]([url](https://www.microchip.com/en-us/product/PIC18F56Q71))
 - [PIC18F56Q71 Data Sheet]([url](https://www.microchip.com/en-us/product/PIC18F56Q71#Documentation))
 - [Microchip PIC & AVR Examples]([url](https://github.com/microchip-pic-avr-examples))
