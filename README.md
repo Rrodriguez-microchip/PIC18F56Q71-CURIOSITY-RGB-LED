@@ -9,8 +9,8 @@ The PIC18F56Q71 features four 16-bit PWM generators. In this demo, the PWM1, PWM
 
 ##Related Documentation
 - [PIC18F56Q71 Curiosity Nano Evaluation Kit](https://www.microchip.com/en-us/development-tool/ev01g21a)
-- [PIC18F56Q71 Product Page]([url](https://www.microchip.com/en-us/product/PIC18F56Q71))
-- [PIC18F56Q71 Data Sheet]([url](https://www.microchip.com/en-us/product/PIC18F56Q71#Documentation))
+- [PIC18F56Q71 Product Page](https://www.microchip.com/en-us/product/PIC18F56Q71))
+- [PIC18F56Q71 Data Sheet](https://www.microchip.com/en-us/product/PIC18F56Q71#Documentation))
 - [Microchip PIC & AVR Examples]([url](https://github.com/microchip-pic-avr-examples))
 
 ## Features
