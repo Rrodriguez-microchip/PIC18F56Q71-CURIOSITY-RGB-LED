@@ -58,8 +58,11 @@ The project requires the following modules to be configured in MCC:
 * Clock Control:
 
   *Clock Source: HFINTOSC
+  
   *HF Internal Clock: 64 MHz
+  
   *Clock Divider: 1
+  
 <img width="539" height="527" alt="image" src="https://github.com/user-attachments/assets/61fd327f-3a32-43c3-8581-b82dca1869af" />
 
 
